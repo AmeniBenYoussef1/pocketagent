@@ -1,0 +1,27 @@
+# E0: LSTM encoder-decoder, no attention. One joint EN+FR+AR model with language tags.
+name: e0_lstm
+seed: 42
+device: auto
+
+data:
+  data_dir: data/massive
+  locales: [en-US, fr-FR, ar-SA]
+  lang_tag: true
+  min_freq: 2
+  max_src_len: 32
+  max_tgt_len: 40
+
+model:
+  type: lstm
+  emb_dim: 256
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.3
+
+train:
+  epochs: 40
+  batch_size: 64
+  eval_batch_size: 256
+  lr: 0.001
+  clip: 1.0
+  patience: 5   # epochs without dev EM gain

@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/400-italic.css";
+@import "@fontsource/cormorant-garamond/500-italic.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/jetbrains-mono/400.css";
+@import "@fontsource/jetbrains-mono/500.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Semantic roles. Text shades were adjusted until every pair reaches 4.5:1 (see DESIGN.md). */
+:root {
+  --page: #f4ece3;
+  --card: #f8d9c9;
+  --card-soft: #faeee6;
+  --ink: #3a2a24;
+  --ink-2: #715d54;
+  --ink-fn: #8a5348;
+  --ink-arg: #6b6145;
+  --ink-val: #ac3b29;
+  --line: rgb(169 103 90 / 0.28);
+  --button: #965a4e;
+  --button-ink: #f4ece3;
+  --heat-low: #faeee6;
+  --heat-high: #a9675a;
+  color-scheme: light;
+}
+
+.dark {
+  --page: #2b211d;
+  --card: #3a2d28;
+  --card-soft: #33271f;
+  --ink: #f4ece3;
+  --ink-2: #aa958b;
+  --ink-fn: #bf8e84;
+  --ink-arg: #a59873;
+  --ink-val: #e08a7c;
+  --line: rgb(242 181 156 / 0.18);
+  --button: #965a4e;
+  --button-ink: #f4ece3;
+  --heat-low: #33271f;
+  --heat-high: #f2b59c;
+  color-scheme: dark;
+}
+
+@theme inline {
+  /* raw palette, for fills, chips and charts */
+  --color-linen: #f4ece3;
+  --color-petal: #f8d9c9;
+  --color-apricot: #f2b59c;
+  --color-rosewood: #e08a7c;
+  --color-terracotta: #a9675a;
+  --color-olive: #6e6447;
+  --color-espresso: #3a2a24;
+  --color-cocoa: #7a645a;
+  --color-night: #2b211d;
+
+  /* roles */
+  --color-page: var(--page);
+  --color-card: var(--card);
+  --color-card-soft: var(--card-soft);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-fn: var(--ink-fn);
+  --color-arg: var(--ink-arg);
+  --color-val: var(--ink-val);
+  --color-line: var(--line);
+  --color-button: var(--button);
+  --color-button-ink: var(--button-ink);
+
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-card: 20px;
+  --shadow-soft: 0 1px 2px rgb(58 42 36 / 0.04), 0 8px 24px -12px rgb(58 42 36 / 0.18);
+}
+
+@layer base {
+  html {
+    background: var(--page);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 200ms ease, color 200ms ease;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: #f2b59c;
+    color: #3a2a24;
+  }
+  :focus-visible {
+    outline: 2px solid #a9675a;
+    outline-offset: 2px;
+    border-radius: 8px;
+  }
+}
+
+@utility label {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+@utility card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-soft);
+}
+
+@utility ease {
+  transition-property: color, background-color, border-color, box-shadow, opacity, transform;
+  transition-duration: 180ms;
+  transition-timing-function: ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

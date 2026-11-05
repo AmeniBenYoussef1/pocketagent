@@ -1,0 +1,43 @@
+e0_lstm: 13.59M params on cuda NVIDIA GeForce GTX 1650 with Max-Q Design
+train 34522 (dropped 20 long targets), eval 6099 (dev)
+epoch   1  train 2.0653  eval 1.4048  EM   5.4%  (38.9s train, 4.6s eval)
+epoch   2  train 1.3102  eval 1.0135  EM  17.5%  (39.1s train, 4.8s eval)
+epoch   3  train 1.0070  eval 0.8442  EM  23.0%  (39.2s train, 4.9s eval)
+epoch   4  train 0.8305  eval 0.7507  EM  27.0%  (39.0s train, 4.9s eval)
+epoch   5  train 0.7109  eval 0.6978  EM  30.3%  (39.2s train, 4.8s eval)
+epoch   6  train 0.6235  eval 0.6634  EM  32.5%  (39.5s train, 5.0s eval)
+epoch   7  train 0.5550  eval 0.6422  EM  33.7%  (39.5s train, 4.9s eval)
+epoch   8  train 0.4964  eval 0.6280  EM  35.0%  (39.3s train, 4.9s eval)
+epoch   9  train 0.4491  eval 0.6183  EM  37.0%  (39.4s train, 5.0s eval)
+epoch  10  train 0.4046  eval 0.6131  EM  37.1%  (39.4s train, 5.0s eval)
+epoch  11  train 0.3663  eval 0.6094  EM  38.2%  (39.8s train, 5.0s eval)
+epoch  12  train 0.3336  eval 0.6056  EM  39.1%  (39.8s train, 5.3s eval)
+epoch  13  train 0.3049  eval 0.6081  EM  39.1%  (39.9s train, 5.1s eval)
+epoch  14  train 0.2793  eval 0.6113  EM  39.7%  (40.3s train, 5.2s eval)
+epoch  15  train 0.2581  eval 0.6110  EM  40.7%  (40.1s train, 5.0s eval)
+epoch  16  train 0.2364  eval 0.6151  EM  41.1%  (40.5s train, 5.3s eval)
+epoch  17  train 0.2209  eval 0.6186  EM  41.6%  (41.8s train, 5.6s eval)
+epoch  18  train 0.2048  eval 0.6255  EM  41.7%  (41.6s train, 5.5s eval)
+epoch  19  train 0.1921  eval 0.6269  EM  41.8%  (42.3s train, 5.4s eval)
+epoch  20  train 0.1781  eval 0.6317  EM  41.9%  (43.5s train, 6.1s eval)
+epoch  21  train 0.1692  eval 0.6441  EM  41.8%  (43.7s train, 5.3s eval)
+epoch  22  train 0.1599  eval 0.6435  EM  42.2%  (41.2s train, 5.2s eval)
+epoch  23  train 0.1503  eval 0.6590  EM  43.2%  (40.6s train, 5.7s eval)
+epoch  24  train 0.1401  eval 0.6611  EM  42.8%  (41.4s train, 5.5s eval)
+epoch  25  train 0.1362  eval 0.6605  EM  43.7%  (42.6s train, 5.5s eval)
+epoch  26  train 0.1273  eval 0.6686  EM  43.0%  (41.6s train, 5.4s eval)
+epoch  27  train 0.1236  eval 0.6761  EM  43.5%  (41.8s train, 5.5s eval)
+epoch  28  train 0.1182  eval 0.6807  EM  44.4%  (43.1s train, 5.6s eval)
+epoch  29  train 0.1132  eval 0.6830  EM  43.6%  (42.9s train, 5.6s eval)
+epoch  30  train 0.1078  eval 0.6917  EM  43.2%  (42.9s train, 5.6s eval)
+epoch  31  train 0.1036  eval 0.7010  EM  44.2%  (45.6s train, 5.9s eval)
+epoch  32  train 0.1014  eval 0.6966  EM  43.4%  (45.8s train, 6.9s eval)
+epoch  33  train 0.0985  eval 0.7002  EM  43.7%  (47.0s train, 5.9s eval)
+early stop: no dev EM gain for 5 epochs
+
+best epoch 28 (dev)
+                EM EM strict    intent   slot F1     valid   mF1 int       mEM  mF1 slot
+overall      44.4%     44.2%     80.6%     47.9%    100.0%     77.3%     47.0%     42.2%
+en-US        47.9%     47.7%     83.3%     52.1%    100.0%     80.6%     51.7%     45.4%
+fr-FR        45.3%     45.2%     82.4%     48.3%    100.0%     79.0%     47.1%     45.4%
+ar-SA        40.0%     39.8%     76.1%     43.0%    100.0%     72.1%     42.3%     38.7%

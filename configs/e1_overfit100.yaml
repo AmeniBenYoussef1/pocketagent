@@ -1,0 +1,29 @@
+# Sanity check for E1: memorize the same 100 train examples as e0_overfit100.
+name: e1_overfit100
+seed: 42
+device: auto
+
+data:
+  data_dir: data/massive
+  locales: [en-US, fr-FR, ar-SA]
+  lang_tag: true
+  min_freq: 1
+  max_src_len: 32
+  max_tgt_len: 40
+  overfit_n: 100
+
+model:
+  type: attn
+  emb_dim: 256
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.0
+  attn_dim: 256
+
+train:
+  epochs: 150
+  batch_size: 16
+  eval_batch_size: 100
+  lr: 0.001
+  clip: 1.0
+  patience: null

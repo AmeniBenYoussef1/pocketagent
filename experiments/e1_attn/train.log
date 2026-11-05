@@ -1,0 +1,34 @@
+e1_attn: 23.83M params on cuda NVIDIA GeForce GTX 1650 with Max-Q Design
+train 34522 (dropped 20 long targets), eval 6099 (dev)
+epoch   1  train 1.7488  eval 1.0731  EM  13.7%  (124.9s train, 9.4s eval)
+epoch   2  train 1.0165  eval 0.7761  EM  25.3%  (129.0s train, 9.9s eval)
+epoch   3  train 0.7527  eval 0.6710  EM  31.2%  (133.4s train, 11.1s eval)
+epoch   4  train 0.5944  eval 0.5988  EM  34.2%  (130.0s train, 10.7s eval)
+epoch   5  train 0.4796  eval 0.5657  EM  37.5%  (135.4s train, 11.3s eval)
+epoch   6  train 0.3908  eval 0.5493  EM  40.0%  (136.0s train, 11.6s eval)
+epoch   7  train 0.3235  eval 0.5353  EM  41.6%  (135.4s train, 11.6s eval)
+epoch   8  train 0.2705  eval 0.5367  EM  41.5%  (136.6s train, 11.7s eval)
+epoch   9  train 0.2310  eval 0.5470  EM  43.9%  (135.5s train, 10.9s eval)
+epoch  10  train 0.1991  eval 0.5545  EM  43.5%  (129.4s train, 11.3s eval)
+epoch  11  train 0.1752  eval 0.5614  EM  43.5%  (127.2s train, 10.4s eval)
+epoch  12  train 0.1586  eval 0.5706  EM  44.6%  (132.3s train, 11.3s eval)
+epoch  13  train 0.1438  eval 0.5814  EM  44.9%  (136.6s train, 11.7s eval)
+epoch  14  train 0.1343  eval 0.5895  EM  43.4%  (132.4s train, 11.8s eval)
+epoch  15  train 0.1225  eval 0.6048  EM  43.9%  (138.4s train, 12.1s eval)
+epoch  16  train 0.1141  eval 0.6217  EM  44.4%  (140.4s train, 11.6s eval)
+epoch  17  train 0.1092  eval 0.6246  EM  45.8%  (130.8s train, 10.6s eval)
+epoch  18  train 0.1061  eval 0.6263  EM  45.2%  (128.7s train, 11.7s eval)
+epoch  19  train 0.0992  eval 0.6398  EM  45.8%  (136.9s train, 11.7s eval)
+epoch  20  train 0.0941  eval 0.6544  EM  45.3%  (131.5s train, 11.6s eval)
+epoch  21  train 0.0914  eval 0.6574  EM  44.7%  (135.2s train, 11.6s eval)
+epoch  22  train 0.0889  eval 0.6752  EM  45.4%  (128.1s train, 10.8s eval)
+epoch  23  train 0.0860  eval 0.6805  EM  45.4%  (122.2s train, 10.5s eval)
+epoch  24  train 0.0835  eval 0.6881  EM  44.8%  (125.5s train, 11.2s eval)
+early stop: no dev EM gain for 5 epochs
+
+best epoch 19 (dev)
+                EM EM strict    intent   slot F1     valid   mF1 int       mEM  mF1 slot
+overall      45.8%     45.7%     80.6%     52.1%    100.0%     77.5%     47.7%     45.2%
+en-US        50.3%     50.3%     84.2%     56.4%    100.0%     80.7%     52.4%     51.2%
+fr-FR        46.1%     46.1%     82.1%     52.1%    100.0%     79.1%     48.1%     45.6%
+ar-SA        40.9%     40.8%     75.5%     47.6%    100.0%     72.1%     42.6%     40.2%

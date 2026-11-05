@@ -1,0 +1,9 @@
+{
+ "source_run": "experiments\\e2_copy",
+ "beam_size": 1,
+ "alpha": 0.6,
+ "split": "dev",
+ "n": 6099,
+ "decode_seconds": 5.0,
+ "device": "cuda"
+}

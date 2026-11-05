@@ -1,0 +1,9 @@
+# Agent settings used by the API and the web app (environment variables override them).
+# Fixed before the final test evaluation; not to be changed after seeing test numbers.
+model: e2            # final model: joint E2 (experiments/e2_copy)
+decoding: beam3      # beam search, 3 beams
+confidence: mean     # geometric mean of the call's token probabilities
+# chosen on dev (experiments/e2_copy/calibration.json): the agent acts alone on 55.8%
+# of dev commands, 81.2% of them exactly right; below 0.98 it asks first
+threshold: 0.98
+home_city: Tunis     # weather place when the command gives none

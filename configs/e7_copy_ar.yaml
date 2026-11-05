@@ -1,0 +1,28 @@
+# E7: E2 trained on ar-SA only (per-locale model), to compare with the joint E2.
+name: e7_copy_ar
+seed: 42
+device: auto
+
+data:
+  data_dir: data/massive
+  locales: [ar-SA]
+  lang_tag: false
+  min_freq: 2
+  max_src_len: 32
+  max_tgt_len: 40
+
+model:
+  type: copy
+  emb_dim: 256
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.3
+  attn_dim: 256
+
+train:
+  epochs: 40
+  batch_size: 64
+  eval_batch_size: 256
+  lr: 0.001
+  clip: 1.0
+  patience: 5   # epochs without dev EM gain

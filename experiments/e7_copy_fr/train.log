@@ -1,0 +1,34 @@
+e7_copy_fr: 19.66M params on cuda NVIDIA GeForce GTX 1650 with Max-Q Design
+train 11505 (dropped 9 long targets), eval 2033 (dev)
+epoch   1  train 1.2646  eval 0.7374  EM  14.1%  (50.5s train, 3.1s eval)
+epoch   2  train 0.6099  eval 0.4657  EM  34.6%  (54.1s train, 3.1s eval)
+epoch   3  train 0.4101  eval 0.3876  EM  44.9%  (40.2s train, 2.9s eval)
+epoch   4  train 0.3101  eval 0.3461  EM  49.4%  (38.9s train, 3.1s eval)
+epoch   5  train 0.2435  eval 0.3386  EM  52.2%  (38.5s train, 3.2s eval)
+epoch   6  train 0.1945  eval 0.3454  EM  53.3%  (40.8s train, 3.4s eval)
+epoch   7  train 0.1572  eval 0.3442  EM  54.3%  (40.6s train, 3.3s eval)
+epoch   8  train 0.1308  eval 0.3570  EM  54.8%  (39.4s train, 3.3s eval)
+epoch   9  train 0.1116  eval 0.3773  EM  55.3%  (40.5s train, 3.4s eval)
+epoch  10  train 0.0947  eval 0.3832  EM  55.3%  (38.5s train, 3.4s eval)
+epoch  11  train 0.0807  eval 0.4093  EM  55.3%  (41.9s train, 3.6s eval)
+epoch  12  train 0.0679  eval 0.4210  EM  55.6%  (40.7s train, 3.4s eval)
+epoch  13  train 0.0611  eval 0.4240  EM  55.6%  (39.6s train, 3.3s eval)
+epoch  14  train 0.0593  eval 0.4411  EM  55.1%  (39.1s train, 3.3s eval)
+epoch  15  train 0.0513  eval 0.4480  EM  55.1%  (39.8s train, 3.3s eval)
+epoch  16  train 0.0489  eval 0.4516  EM  54.8%  (38.4s train, 3.3s eval)
+epoch  17  train 0.0407  eval 0.4458  EM  56.1%  (39.4s train, 3.3s eval)
+epoch  18  train 0.0436  eval 0.4691  EM  55.4%  (39.5s train, 3.6s eval)
+epoch  19  train 0.0338  eval 0.4757  EM  56.1%  (39.5s train, 3.3s eval)
+epoch  20  train 0.0348  eval 0.4916  EM  56.5%  (39.7s train, 3.4s eval)
+epoch  21  train 0.0348  eval 0.5085  EM  55.2%  (40.0s train, 3.5s eval)
+epoch  22  train 0.0362  eval 0.5013  EM  54.9%  (38.4s train, 3.5s eval)
+epoch  23  train 0.0358  eval 0.5023  EM  54.5%  (38.1s train, 3.2s eval)
+epoch  24  train 0.0329  eval 0.5290  EM  56.0%  (37.8s train, 3.1s eval)
+epoch  25  train 0.0316  eval 0.5282  EM  54.5%  (38.1s train, 3.2s eval)
+early stop: no dev EM gain for 5 epochs
+
+best epoch 20 (dev)
+                EM EM strict    intent   slot F1     valid   mF1 int       mEM  mF1 slot
+overall      56.5%     56.5%     81.6%     67.0%     99.9%     78.3%     57.1%     59.6%
+fr-FR        56.5%     56.5%     81.6%     67.0%     99.9%     78.3%     57.1%     59.6%
+exit code 127

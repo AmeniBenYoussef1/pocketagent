@@ -1,0 +1,146 @@
+{
+ "device": "cuda",
+ "gpu": "NVIDIA GeForce GTX 1650 with Max-Q Design",
+ "n_params": 20055099,
+ "best_epoch": 12,
+ "best_eval_em": 0.49778652238071813,
+ "eval_split": "dev",
+ "epochs": [
+  {
+   "epoch": 1,
+   "train_loss": 1.2407318195664738,
+   "eval_loss": 0.7265451028792179,
+   "eval_em": 0.1485489424495819,
+   "train_seconds": 35.34,
+   "eval_seconds": 3.02
+  },
+  {
+   "epoch": 2,
+   "train_loss": 0.6312620282788696,
+   "eval_loss": 0.5043480441656225,
+   "eval_em": 0.31431382193802265,
+   "train_seconds": 35.42,
+   "eval_seconds": 2.72
+  },
+  {
+   "epoch": 3,
+   "train_loss": 0.44084422669052326,
+   "eval_loss": 0.42097190093685133,
+   "eval_em": 0.39793408755533693,
+   "train_seconds": 35.42,
+   "eval_seconds": 2.91
+  },
+  {
+   "epoch": 4,
+   "train_loss": 0.338627731122987,
+   "eval_loss": 0.3893837664184323,
+   "eval_em": 0.441219872110182,
+   "train_seconds": 49.12,
+   "eval_seconds": 3.06
+  },
+  {
+   "epoch": 5,
+   "train_loss": 0.2674611925873617,
+   "eval_loss": 0.37125731692617364,
+   "eval_em": 0.47368421052631576,
+   "train_seconds": 47.44,
+   "eval_seconds": 2.85
+  },
+  {
+   "epoch": 6,
+   "train_loss": 0.21629343980766205,
+   "eval_loss": 0.3804875617569977,
+   "eval_em": 0.47368421052631576,
+   "train_seconds": 50.35,
+   "eval_seconds": 3.01
+  },
+  {
+   "epoch": 7,
+   "train_loss": 0.18153216615874945,
+   "eval_loss": 0.38936837784623074,
+   "eval_em": 0.4677816035415642,
+   "train_seconds": 49.03,
+   "eval_seconds": 3.22
+  },
+  {
+   "epoch": 8,
+   "train_loss": 0.15336610151992333,
+   "eval_loss": 0.3984382632484606,
+   "eval_em": 0.48598130841121495,
+   "train_seconds": 49.34,
+   "eval_seconds": 2.93
+  },
+  {
+   "epoch": 9,
+   "train_loss": 0.12738526301758768,
+   "eval_loss": 0.4103274339604059,
+   "eval_em": 0.48844072798819477,
+   "train_seconds": 51.69,
+   "eval_seconds": 3.05
+  },
+  {
+   "epoch": 10,
+   "train_loss": 0.11620506704092984,
+   "eval_loss": 0.4258684271885442,
+   "eval_em": 0.485489424495819,
+   "train_seconds": 50.75,
+   "eval_seconds": 3.2
+  },
+  {
+   "epoch": 11,
+   "train_loss": 0.10129999567295585,
+   "eval_loss": 0.4266988260633021,
+   "eval_em": 0.49188391539596654,
+   "train_seconds": 50.89,
+   "eval_seconds": 2.97
+  },
+  {
+   "epoch": 12,
+   "train_loss": 0.08407604916644247,
+   "eval_loss": 0.43351319484162204,
+   "eval_em": 0.49778652238071813,
+   "train_seconds": 50.41,
+   "eval_seconds": 3.29
+  },
+  {
+   "epoch": 13,
+   "train_loss": 0.0751569816352168,
+   "eval_loss": 0.4587655977084599,
+   "eval_em": 0.48745696015740286,
+   "train_seconds": 50.41,
+   "eval_seconds": 3.02
+  },
+  {
+   "epoch": 14,
+   "train_loss": 0.06696543025683208,
+   "eval_loss": 0.4676721479401216,
+   "eval_em": 0.49483521888834237,
+   "train_seconds": 51.02,
+   "eval_seconds": 2.92
+  },
+  {
+   "epoch": 15,
+   "train_loss": 0.06291202551082024,
+   "eval_loss": 0.46325795763463035,
+   "eval_em": 0.49335956714215445,
+   "train_seconds": 49.94,
+   "eval_seconds": 3.04
+  },
+  {
+   "epoch": 16,
+   "train_loss": 0.05853442863972106,
+   "eval_loss": 0.48363241486918257,
+   "eval_em": 0.4899163797343827,
+   "train_seconds": 48.72,
+   "eval_seconds": 2.89
+  },
+  {
+   "epoch": 17,
+   "train_loss": 0.05277991547060642,
+   "eval_loss": 0.4937837522683621,
+   "eval_em": 0.4869650762420069,
+   "train_seconds": 50.51,
+   "eval_seconds": 3.04
+  }
+ ]
+}

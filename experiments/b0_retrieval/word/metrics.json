@@ -1,0 +1,2251 @@
+{
+ "split": "dev",
+ "results": {
+  "overall": {
+   "n": 6099,
+   "exact_match": 0.3105427119199869,
+   "exact_match_strict": 0.3072634858173471,
+   "intent_accuracy": 0.6807673389080177,
+   "slot_precision": 0.43502598960415834,
+   "slot_recall": 0.36455017590886246,
+   "slot_f1": 0.39668216206362233,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 0.6523707936818444,
+   "macro_exact_match": 0.34896696982108566,
+   "macro_slot_f1": 0.3454555748602964,
+   "per_intent": {
+    "alarm_query": {
+     "n": 57,
+     "intent_precision": 0.46153846153846156,
+     "intent_recall": 0.5263157894736842,
+     "intent_f1": 0.4918032786885246,
+     "exact_match": 0.2982456140350877,
+     "slot_f1": 0.1568627450980392,
+     "n_train": 390
+    },
+    "alarm_remove": {
+     "n": 42,
+     "intent_precision": 0.7222222222222222,
+     "intent_recall": 0.6190476190476191,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.23809523809523808,
+     "slot_f1": 0.29508196721311475,
+     "n_train": 234
+    },
+    "alarm_set": {
+     "n": 93,
+     "intent_precision": 0.4930555555555556,
+     "intent_recall": 0.7634408602150538,
+     "intent_f1": 0.5991561181434599,
+     "exact_match": 0.17204301075268819,
+     "slot_f1": 0.3465346534653465,
+     "n_train": 546
+    },
+    "audio_volume_down": {
+     "n": 24,
+     "intent_precision": 0.6842105263157895,
+     "intent_recall": 0.5416666666666666,
+     "intent_f1": 0.6046511627906976,
+     "exact_match": 0.5,
+     "slot_f1": 0.0,
+     "n_train": 156
+    },
+    "audio_volume_mute": {
+     "n": 45,
+     "intent_precision": 0.5384615384615384,
+     "intent_recall": 0.6222222222222222,
+     "intent_f1": 0.577319587628866,
+     "exact_match": 0.5111111111111111,
+     "slot_f1": 0.2,
+     "n_train": 330
+    },
+    "audio_volume_up": {
+     "n": 36,
+     "intent_precision": 0.6808510638297872,
+     "intent_recall": 0.8888888888888888,
+     "intent_f1": 0.7710843373493975,
+     "exact_match": 0.7222222222222222,
+     "slot_f1": 0.16666666666666666,
+     "n_train": 330
+    },
+    "calendar_query": {
+     "n": 306,
+     "intent_precision": 0.5830388692579506,
+     "intent_recall": 0.5392156862745098,
+     "intent_f1": 0.5602716468590833,
+     "exact_match": 0.21895424836601307,
+     "slot_f1": 0.37125748502994016,
+     "n_train": 1698
+    },
+    "calendar_remove": {
+     "n": 141,
+     "intent_precision": 0.6139240506329114,
+     "intent_recall": 0.6879432624113475,
+     "intent_f1": 0.648829431438127,
+     "exact_match": 0.3262411347517731,
+     "slot_f1": 0.3686274509803921,
+     "n_train": 936
+    },
+    "calendar_set": {
+     "n": 393,
+     "intent_precision": 0.7386363636363636,
+     "intent_recall": 0.6615776081424937,
+     "intent_f1": 0.697986577181208,
+     "exact_match": 0.14249363867684478,
+     "slot_f1": 0.3935091277890466,
+     "n_train": 2430
+    },
+    "cooking_query": {
+     "n": 6,
+     "intent_precision": 0.75,
+     "intent_recall": 0.5,
+     "intent_f1": 0.6,
+     "exact_match": 0.5,
+     "slot_f1": 0.0,
+     "n_train": 12
+    },
+    "cooking_recipe": {
+     "n": 123,
+     "intent_precision": 0.8532110091743119,
+     "intent_recall": 0.7560975609756098,
+     "intent_f1": 0.8017241379310345,
+     "exact_match": 0.25203252032520324,
+     "slot_f1": 0.2424242424242424,
+     "n_train": 621
+    },
+    "datetime_convert": {
+     "n": 27,
+     "intent_precision": 0.7222222222222222,
+     "intent_recall": 0.48148148148148145,
+     "intent_f1": 0.5777777777777777,
+     "exact_match": 0.07407407407407407,
+     "slot_f1": 0.4,
+     "n_train": 156
+    },
+    "datetime_query": {
+     "n": 192,
+     "intent_precision": 0.6395348837209303,
+     "intent_recall": 0.859375,
+     "intent_f1": 0.7333333333333334,
+     "exact_match": 0.4583333333333333,
+     "slot_f1": 0.43425076452599387,
+     "n_train": 1050
+    },
+    "email_addcontact": {
+     "n": 15,
+     "intent_precision": 0.5,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.5714285714285715,
+     "exact_match": 0.4,
+     "slot_f1": 0.0,
+     "n_train": 162
+    },
+    "email_query": {
+     "n": 219,
+     "intent_precision": 0.7689075630252101,
+     "intent_recall": 0.8356164383561644,
+     "intent_f1": 0.8008752735229758,
+     "exact_match": 0.4383561643835616,
+     "slot_f1": 0.28346456692913385,
+     "n_train": 1254
+    },
+    "email_querycontact": {
+     "n": 48,
+     "intent_precision": 0.625,
+     "intent_recall": 0.5208333333333334,
+     "intent_f1": 0.5681818181818181,
+     "exact_match": 0.125,
+     "slot_f1": 0.30088495575221236,
+     "n_train": 381
+    },
+    "email_sendemail": {
+     "n": 189,
+     "intent_precision": 0.8305084745762712,
+     "intent_recall": 0.7777777777777778,
+     "intent_f1": 0.8032786885245902,
+     "exact_match": 0.2751322751322751,
+     "slot_f1": 0.3353293413173653,
+     "n_train": 1062
+    },
+    "general_greet": {
+     "n": 6,
+     "intent_precision": 0.21428571428571427,
+     "intent_recall": 0.5,
+     "intent_f1": 0.3,
+     "exact_match": 0.3333333333333333,
+     "slot_f1": 0.0,
+     "n_train": 75
+    },
+    "general_joke": {
+     "n": 45,
+     "intent_precision": 0.6862745098039216,
+     "intent_recall": 0.7777777777777778,
+     "intent_f1": 0.7291666666666667,
+     "exact_match": 0.4,
+     "slot_f1": 0.2,
+     "n_train": 216
+    },
+    "general_quirky": {
+     "n": 315,
+     "intent_precision": 0.43119266055045874,
+     "intent_recall": 0.2984126984126984,
+     "intent_f1": 0.3527204502814259,
+     "exact_match": 0.20952380952380953,
+     "slot_f1": 0.2789115646258503,
+     "n_train": 1665
+    },
+    "iot_cleaning": {
+     "n": 57,
+     "intent_precision": 0.92,
+     "intent_recall": 0.8070175438596491,
+     "intent_f1": 0.8598130841121495,
+     "exact_match": 0.43859649122807015,
+     "slot_f1": 0.588235294117647,
+     "n_train": 279
+    },
+    "iot_coffee": {
+     "n": 42,
+     "intent_precision": 0.72,
+     "intent_recall": 0.8571428571428571,
+     "intent_f1": 0.782608695652174,
+     "exact_match": 0.7619047619047619,
+     "slot_f1": 0.5714285714285715,
+     "n_train": 372
+    },
+    "iot_hue_lightchange": {
+     "n": 66,
+     "intent_precision": 0.7857142857142857,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.721311475409836,
+     "exact_match": 0.36363636363636365,
+     "slot_f1": 0.4444444444444444,
+     "n_train": 375
+    },
+    "iot_hue_lightdim": {
+     "n": 51,
+     "intent_precision": 0.7906976744186046,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.7234042553191489,
+     "exact_match": 0.49019607843137253,
+     "slot_f1": 0.5238095238095238,
+     "n_train": 228
+    },
+    "iot_hue_lightoff": {
+     "n": 51,
+     "intent_precision": 0.5846153846153846,
+     "intent_recall": 0.7450980392156863,
+     "intent_f1": 0.6551724137931034,
+     "exact_match": 0.47058823529411764,
+     "slot_f1": 0.4912280701754386,
+     "n_train": 459
+    },
+    "iot_hue_lighton": {
+     "n": 15,
+     "intent_precision": 0.5714285714285714,
+     "intent_recall": 0.5333333333333333,
+     "intent_f1": 0.5517241379310344,
+     "exact_match": 0.26666666666666666,
+     "slot_f1": 0.4,
+     "n_train": 66
+    },
+    "iot_hue_lightup": {
+     "n": 36,
+     "intent_precision": 0.575,
+     "intent_recall": 0.6388888888888888,
+     "intent_f1": 0.6052631578947367,
+     "exact_match": 0.4444444444444444,
+     "slot_f1": 0.2,
+     "n_train": 228
+    },
+    "iot_wemo_off": {
+     "n": 15,
+     "intent_precision": 0.4166666666666667,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.5128205128205129,
+     "exact_match": 0.3333333333333333,
+     "slot_f1": 0.7586206896551724,
+     "n_train": 156
+    },
+    "iot_wemo_on": {
+     "n": 21,
+     "intent_precision": 0.5454545454545454,
+     "intent_recall": 0.5714285714285714,
+     "intent_f1": 0.5581395348837208,
+     "exact_match": 0.42857142857142855,
+     "slot_f1": 0.7692307692307692,
+     "n_train": 144
+    },
+    "lists_createoradd": {
+     "n": 75,
+     "intent_precision": 0.6138613861386139,
+     "intent_recall": 0.8266666666666667,
+     "intent_f1": 0.7045454545454546,
+     "exact_match": 0.5866666666666667,
+     "slot_f1": 0.463768115942029,
+     "n_train": 531
+    },
+    "lists_query": {
+     "n": 150,
+     "intent_precision": 0.6903225806451613,
+     "intent_recall": 0.7133333333333334,
+     "intent_f1": 0.7016393442622951,
+     "exact_match": 0.5466666666666666,
+     "slot_f1": 0.46846846846846846,
+     "n_train": 594
+    },
+    "lists_remove": {
+     "n": 111,
+     "intent_precision": 0.6637931034482759,
+     "intent_recall": 0.6936936936936937,
+     "intent_f1": 0.6784140969162997,
+     "exact_match": 0.4594594594594595,
+     "slot_f1": 0.3333333333333333,
+     "n_train": 492
+    },
+    "music_dislikeness": {
+     "n": 6,
+     "intent_precision": 0.4,
+     "intent_recall": 0.3333333333333333,
+     "intent_f1": 0.3636363636363636,
+     "exact_match": 0.3333333333333333,
+     "slot_f1": 0.0,
+     "n_train": 42
+    },
+    "music_likeness": {
+     "n": 48,
+     "intent_precision": 0.46153846153846156,
+     "intent_recall": 0.5,
+     "intent_f1": 0.48000000000000004,
+     "exact_match": 0.4166666666666667,
+     "slot_f1": 0.34285714285714286,
+     "n_train": 339
+    },
+    "music_query": {
+     "n": 90,
+     "intent_precision": 0.5148514851485149,
+     "intent_recall": 0.5777777777777777,
+     "intent_f1": 0.5445026178010471,
+     "exact_match": 0.5555555555555556,
+     "slot_f1": 0.19047619047619044,
+     "n_train": 462
+    },
+    "music_settings": {
+     "n": 24,
+     "intent_precision": 0.6,
+     "intent_recall": 0.625,
+     "intent_f1": 0.6122448979591836,
+     "exact_match": 0.2916666666666667,
+     "slot_f1": 0.4897959183673469,
+     "n_train": 153
+    },
+    "news_query": {
+     "n": 246,
+     "intent_precision": 0.6450381679389313,
+     "intent_recall": 0.6869918699186992,
+     "intent_f1": 0.6653543307086616,
+     "exact_match": 0.23170731707317074,
+     "slot_f1": 0.28571428571428575,
+     "n_train": 1509
+    },
+    "play_audiobook": {
+     "n": 105,
+     "intent_precision": 0.8,
+     "intent_recall": 0.7238095238095238,
+     "intent_f1": 0.76,
+     "exact_match": 0.13333333333333333,
+     "slot_f1": 0.39616613418530355,
+     "n_train": 450
+    },
+    "play_game": {
+     "n": 66,
+     "intent_precision": 0.7619047619047619,
+     "intent_recall": 0.7272727272727273,
+     "intent_f1": 0.7441860465116279,
+     "exact_match": 0.4393939393939394,
+     "slot_f1": 0.39215686274509803,
+     "n_train": 336
+    },
+    "play_music": {
+     "n": 369,
+     "intent_precision": 0.7319034852546917,
+     "intent_recall": 0.7398373983739838,
+     "intent_f1": 0.7358490566037736,
+     "exact_match": 0.3089430894308943,
+     "slot_f1": 0.3398926654740608,
+     "n_train": 1917
+    },
+    "play_podcasts": {
+     "n": 102,
+     "intent_precision": 0.648936170212766,
+     "intent_recall": 0.5980392156862745,
+     "intent_f1": 0.6224489795918368,
+     "exact_match": 0.23529411764705882,
+     "slot_f1": 0.24390243902439024,
+     "n_train": 579
+    },
+    "play_radio": {
+     "n": 138,
+     "intent_precision": 0.7007874015748031,
+     "intent_recall": 0.644927536231884,
+     "intent_f1": 0.6716981132075472,
+     "exact_match": 0.2826086956521739,
+     "slot_f1": 0.17679558011049726,
+     "n_train": 849
+    },
+    "qa_currency": {
+     "n": 96,
+     "intent_precision": 0.8932038834951457,
+     "intent_recall": 0.9583333333333334,
+     "intent_f1": 0.9246231155778895,
+     "exact_match": 0.375,
+     "slot_f1": 0.5324232081911263,
+     "n_train": 426
+    },
+    "qa_definition": {
+     "n": 165,
+     "intent_precision": 0.6845637583892618,
+     "intent_recall": 0.6181818181818182,
+     "intent_f1": 0.6496815286624203,
+     "exact_match": 0.15757575757575756,
+     "slot_f1": 0.15384615384615383,
+     "n_train": 801
+    },
+    "qa_factoid": {
+     "n": 270,
+     "intent_precision": 0.6578947368421053,
+     "intent_recall": 0.5555555555555556,
+     "intent_f1": 0.6024096385542169,
+     "exact_match": 0.26296296296296295,
+     "slot_f1": 0.3448275862068965,
+     "n_train": 1632
+    },
+    "qa_maths": {
+     "n": 39,
+     "intent_precision": 0.75,
+     "intent_recall": 0.5384615384615384,
+     "intent_f1": 0.6268656716417911,
+     "exact_match": 0.5384615384615384,
+     "slot_f1": 0.0,
+     "n_train": 234
+    },
+    "qa_stock": {
+     "n": 72,
+     "intent_precision": 0.8688524590163934,
+     "intent_recall": 0.7361111111111112,
+     "intent_f1": 0.7969924812030076,
+     "exact_match": 0.375,
+     "slot_f1": 0.40310077519379844,
+     "n_train": 456
+    },
+    "recommendation_events": {
+     "n": 78,
+     "intent_precision": 0.5185185185185185,
+     "intent_recall": 0.5384615384615384,
+     "intent_f1": 0.5283018867924528,
+     "exact_match": 0.16666666666666666,
+     "slot_f1": 0.234375,
+     "n_train": 570
+    },
+    "recommendation_locations": {
+     "n": 93,
+     "intent_precision": 0.6097560975609756,
+     "intent_recall": 0.5376344086021505,
+     "intent_f1": 0.5714285714285714,
+     "exact_match": 0.24731182795698925,
+     "slot_f1": 0.4083769633507853,
+     "n_train": 519
+    },
+    "recommendation_movies": {
+     "n": 36,
+     "intent_precision": 0.696969696969697,
+     "intent_recall": 0.6388888888888888,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.16666666666666666,
+     "slot_f1": 0.163265306122449,
+     "n_train": 210
+    },
+    "social_post": {
+     "n": 150,
+     "intent_precision": 0.8461538461538461,
+     "intent_recall": 0.8066666666666666,
+     "intent_f1": 0.8259385665529009,
+     "exact_match": 0.32666666666666666,
+     "slot_f1": 0.5538461538461538,
+     "n_train": 849
+    },
+    "social_query": {
+     "n": 54,
+     "intent_precision": 0.5098039215686274,
+     "intent_recall": 0.48148148148148145,
+     "intent_f1": 0.49523809523809526,
+     "exact_match": 0.24074074074074073,
+     "slot_f1": 0.32967032967032966,
+     "n_train": 324
+    },
+    "takeaway_order": {
+     "n": 60,
+     "intent_precision": 0.6181818181818182,
+     "intent_recall": 0.5666666666666667,
+     "intent_f1": 0.591304347826087,
+     "exact_match": 0.26666666666666666,
+     "slot_f1": 0.3548387096774193,
+     "n_train": 405
+    },
+    "takeaway_query": {
+     "n": 72,
+     "intent_precision": 0.7464788732394366,
+     "intent_recall": 0.7361111111111112,
+     "intent_f1": 0.7412587412587414,
+     "exact_match": 0.375,
+     "slot_f1": 0.5617977528089888,
+     "n_train": 366
+    },
+    "transport_query": {
+     "n": 108,
+     "intent_precision": 0.6083333333333333,
+     "intent_recall": 0.6759259259259259,
+     "intent_f1": 0.6403508771929824,
+     "exact_match": 0.23148148148148148,
+     "slot_f1": 0.538961038961039,
+     "n_train": 681
+    },
+    "transport_taxi": {
+     "n": 81,
+     "intent_precision": 0.7727272727272727,
+     "intent_recall": 0.8395061728395061,
+     "intent_f1": 0.8047337278106509,
+     "exact_match": 0.4074074074074074,
+     "slot_f1": 0.6083650190114068,
+     "n_train": 300
+    },
+    "transport_ticket": {
+     "n": 75,
+     "intent_precision": 0.7794117647058824,
+     "intent_recall": 0.7066666666666667,
+     "intent_f1": 0.7412587412587412,
+     "exact_match": 0.24,
+     "slot_f1": 0.654275092936803,
+     "n_train": 381
+    },
+    "transport_traffic": {
+     "n": 66,
+     "intent_precision": 0.625,
+     "intent_recall": 0.8333333333333334,
+     "intent_f1": 0.7142857142857143,
+     "exact_match": 0.48484848484848486,
+     "slot_f1": 0.41025641025641024,
+     "n_train": 351
+    },
+    "weather_query": {
+     "n": 378,
+     "intent_precision": 0.8259803921568627,
+     "intent_recall": 0.8915343915343915,
+     "intent_f1": 0.8575063613231553,
+     "exact_match": 0.31216931216931215,
+     "slot_f1": 0.48552338530066813,
+     "n_train": 1719
+    }
+   }
+  },
+  "en-US": {
+   "n": 2033,
+   "exact_match": 0.34825381210034434,
+   "exact_match_strict": 0.3443187407771766,
+   "intent_accuracy": 0.720609936055091,
+   "slot_precision": 0.5012360939431397,
+   "slot_recall": 0.40308151093439365,
+   "slot_f1": 0.44683195592286507,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 0.6870389012010416,
+   "macro_exact_match": 0.3947730258234489,
+   "macro_slot_f1": 0.41661555655886223,
+   "per_intent": {
+    "alarm_query": {
+     "n": 19,
+     "intent_precision": 0.4,
+     "intent_recall": 0.631578947368421,
+     "intent_f1": 0.4897959183673469,
+     "exact_match": 0.3157894736842105,
+     "slot_f1": 0.11764705882352941,
+     "n_train": 130
+    },
+    "alarm_remove": {
+     "n": 14,
+     "intent_precision": 0.5555555555555556,
+     "intent_recall": 0.35714285714285715,
+     "intent_f1": 0.43478260869565216,
+     "exact_match": 0.21428571428571427,
+     "slot_f1": 0.375,
+     "n_train": 78
+    },
+    "alarm_set": {
+     "n": 31,
+     "intent_precision": 0.6341463414634146,
+     "intent_recall": 0.8387096774193549,
+     "intent_f1": 0.7222222222222222,
+     "exact_match": 0.22580645161290322,
+     "slot_f1": 0.4507042253521127,
+     "n_train": 182
+    },
+    "audio_volume_down": {
+     "n": 8,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.75,
+     "intent_f1": 0.7058823529411765,
+     "exact_match": 0.625,
+     "slot_f1": 0.0,
+     "n_train": 52
+    },
+    "audio_volume_mute": {
+     "n": 15,
+     "intent_precision": 0.55,
+     "intent_recall": 0.7333333333333333,
+     "intent_f1": 0.6285714285714286,
+     "exact_match": 0.7333333333333333,
+     "slot_f1": 0.6666666666666666,
+     "n_train": 110
+    },
+    "audio_volume_up": {
+     "n": 12,
+     "intent_precision": 0.7142857142857143,
+     "intent_recall": 0.8333333333333334,
+     "intent_f1": 0.7692307692307692,
+     "exact_match": 0.6666666666666666,
+     "slot_f1": 0.0,
+     "n_train": 110
+    },
+    "calendar_query": {
+     "n": 102,
+     "intent_precision": 0.632183908045977,
+     "intent_recall": 0.5392156862745098,
+     "intent_f1": 0.5820105820105821,
+     "exact_match": 0.2647058823529412,
+     "slot_f1": 0.4147465437788019,
+     "n_train": 566
+    },
+    "calendar_remove": {
+     "n": 47,
+     "intent_precision": 0.6428571428571429,
+     "intent_recall": 0.7659574468085106,
+     "intent_f1": 0.6990291262135921,
+     "exact_match": 0.3617021276595745,
+     "slot_f1": 0.4634146341463415,
+     "n_train": 312
+    },
+    "calendar_set": {
+     "n": 131,
+     "intent_precision": 0.8050847457627118,
+     "intent_recall": 0.7251908396946565,
+     "intent_f1": 0.7630522088353412,
+     "exact_match": 0.1984732824427481,
+     "slot_f1": 0.4779116465863454,
+     "n_train": 810
+    },
+    "cooking_query": {
+     "n": 2,
+     "intent_precision": 0.5,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5,
+     "exact_match": 0.5,
+     "slot_f1": 0.0,
+     "n_train": 4
+    },
+    "cooking_recipe": {
+     "n": 41,
+     "intent_precision": 0.8235294117647058,
+     "intent_recall": 0.6829268292682927,
+     "intent_f1": 0.7466666666666667,
+     "exact_match": 0.3170731707317073,
+     "slot_f1": 0.39344262295081966,
+     "n_train": 207
+    },
+    "datetime_convert": {
+     "n": 9,
+     "intent_precision": 1.0,
+     "intent_recall": 0.4444444444444444,
+     "intent_f1": 0.6153846153846153,
+     "exact_match": 0.2222222222222222,
+     "slot_f1": 0.5517241379310345,
+     "n_train": 52
+    },
+    "datetime_query": {
+     "n": 64,
+     "intent_precision": 0.6404494382022472,
+     "intent_recall": 0.890625,
+     "intent_f1": 0.7450980392156863,
+     "exact_match": 0.453125,
+     "slot_f1": 0.4444444444444445,
+     "n_train": 350
+    },
+    "email_addcontact": {
+     "n": 5,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.8,
+     "intent_f1": 0.7272727272727272,
+     "exact_match": 0.6,
+     "slot_f1": 0.0,
+     "n_train": 54
+    },
+    "email_query": {
+     "n": 73,
+     "intent_precision": 0.7441860465116279,
+     "intent_recall": 0.8767123287671232,
+     "intent_f1": 0.8050314465408805,
+     "exact_match": 0.4657534246575342,
+     "slot_f1": 0.3095238095238095,
+     "n_train": 418
+    },
+    "email_querycontact": {
+     "n": 16,
+     "intent_precision": 0.7857142857142857,
+     "intent_recall": 0.6875,
+     "intent_f1": 0.7333333333333334,
+     "exact_match": 0.25,
+     "slot_f1": 0.4390243902439025,
+     "n_train": 127
+    },
+    "email_sendemail": {
+     "n": 63,
+     "intent_precision": 0.847457627118644,
+     "intent_recall": 0.7936507936507936,
+     "intent_f1": 0.819672131147541,
+     "exact_match": 0.30158730158730157,
+     "slot_f1": 0.42592592592592593,
+     "n_train": 354
+    },
+    "general_greet": {
+     "n": 2,
+     "intent_precision": 0.0,
+     "intent_recall": 0.0,
+     "intent_f1": 0.0,
+     "exact_match": 0.0,
+     "slot_f1": null,
+     "n_train": 25
+    },
+    "general_joke": {
+     "n": 15,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.4666666666666667,
+     "slot_f1": 0.16666666666666666,
+     "n_train": 72
+    },
+    "general_quirky": {
+     "n": 105,
+     "intent_precision": 0.5223880597014925,
+     "intent_recall": 0.3333333333333333,
+     "intent_f1": 0.4069767441860465,
+     "exact_match": 0.21904761904761905,
+     "slot_f1": 0.29629629629629634,
+     "n_train": 555
+    },
+    "iot_cleaning": {
+     "n": 19,
+     "intent_precision": 1.0,
+     "intent_recall": 0.8421052631578947,
+     "intent_f1": 0.9142857142857143,
+     "exact_match": 0.42105263157894735,
+     "slot_f1": 0.5957446808510639,
+     "n_train": 93
+    },
+    "iot_coffee": {
+     "n": 14,
+     "intent_precision": 0.6111111111111112,
+     "intent_recall": 0.7857142857142857,
+     "intent_f1": 0.6875000000000001,
+     "exact_match": 0.7142857142857143,
+     "slot_f1": 0.8571428571428571,
+     "n_train": 124
+    },
+    "iot_hue_lightchange": {
+     "n": 22,
+     "intent_precision": 0.8260869565217391,
+     "intent_recall": 0.8636363636363636,
+     "intent_f1": 0.8444444444444444,
+     "exact_match": 0.5,
+     "slot_f1": 0.5641025641025642,
+     "n_train": 125
+    },
+    "iot_hue_lightdim": {
+     "n": 17,
+     "intent_precision": 0.8125,
+     "intent_recall": 0.7647058823529411,
+     "intent_f1": 0.787878787878788,
+     "exact_match": 0.6470588235294118,
+     "slot_f1": 0.6153846153846154,
+     "n_train": 76
+    },
+    "iot_hue_lightoff": {
+     "n": 17,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.8235294117647058,
+     "intent_f1": 0.7368421052631577,
+     "exact_match": 0.6470588235294118,
+     "slot_f1": 0.5882352941176471,
+     "n_train": 153
+    },
+    "iot_hue_lighton": {
+     "n": 5,
+     "intent_precision": 0.75,
+     "intent_recall": 0.6,
+     "intent_f1": 0.6666666666666665,
+     "exact_match": 0.2,
+     "slot_f1": 0.5,
+     "n_train": 22
+    },
+    "iot_hue_lightup": {
+     "n": 12,
+     "intent_precision": 0.875,
+     "intent_recall": 0.5833333333333334,
+     "intent_f1": 0.7000000000000001,
+     "exact_match": 0.5,
+     "slot_f1": 0.5,
+     "n_train": 76
+    },
+    "iot_wemo_off": {
+     "n": 5,
+     "intent_precision": 0.3333333333333333,
+     "intent_recall": 0.6,
+     "intent_f1": 0.42857142857142855,
+     "exact_match": 0.2,
+     "slot_f1": 0.8000000000000002,
+     "n_train": 52
+    },
+    "iot_wemo_on": {
+     "n": 7,
+     "intent_precision": 0.5,
+     "intent_recall": 0.5714285714285714,
+     "intent_f1": 0.5333333333333333,
+     "exact_match": 0.5714285714285714,
+     "slot_f1": 0.923076923076923,
+     "n_train": 48
+    },
+    "lists_createoradd": {
+     "n": 25,
+     "intent_precision": 0.5789473684210527,
+     "intent_recall": 0.88,
+     "intent_f1": 0.6984126984126985,
+     "exact_match": 0.6,
+     "slot_f1": 0.5714285714285715,
+     "n_train": 177
+    },
+    "lists_query": {
+     "n": 50,
+     "intent_precision": 0.6557377049180327,
+     "intent_recall": 0.8,
+     "intent_f1": 0.7207207207207207,
+     "exact_match": 0.62,
+     "slot_f1": 0.4571428571428572,
+     "n_train": 198
+    },
+    "lists_remove": {
+     "n": 37,
+     "intent_precision": 0.7435897435897436,
+     "intent_recall": 0.7837837837837838,
+     "intent_f1": 0.7631578947368421,
+     "exact_match": 0.6216216216216216,
+     "slot_f1": 0.4827586206896552,
+     "n_train": 164
+    },
+    "music_dislikeness": {
+     "n": 2,
+     "intent_precision": 0.3333333333333333,
+     "intent_recall": 0.5,
+     "intent_f1": 0.4,
+     "exact_match": 0.5,
+     "slot_f1": 0.0,
+     "n_train": 14
+    },
+    "music_likeness": {
+     "n": 16,
+     "intent_precision": 0.5882352941176471,
+     "intent_recall": 0.625,
+     "intent_f1": 0.6060606060606061,
+     "exact_match": 0.5,
+     "slot_f1": 0.6,
+     "n_train": 113
+    },
+    "music_query": {
+     "n": 30,
+     "intent_precision": 0.625,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.6451612903225806,
+     "exact_match": 0.6333333333333333,
+     "slot_f1": 0.0,
+     "n_train": 154
+    },
+    "music_settings": {
+     "n": 8,
+     "intent_precision": 0.75,
+     "intent_recall": 0.75,
+     "intent_f1": 0.75,
+     "exact_match": 0.5,
+     "slot_f1": 0.6666666666666666,
+     "n_train": 51
+    },
+    "news_query": {
+     "n": 82,
+     "intent_precision": 0.648936170212766,
+     "intent_recall": 0.7439024390243902,
+     "intent_f1": 0.6931818181818182,
+     "exact_match": 0.2804878048780488,
+     "slot_f1": 0.3776223776223776,
+     "n_train": 503
+    },
+    "play_audiobook": {
+     "n": 35,
+     "intent_precision": 0.8518518518518519,
+     "intent_recall": 0.6571428571428571,
+     "intent_f1": 0.7419354838709677,
+     "exact_match": 0.17142857142857143,
+     "slot_f1": 0.4230769230769231,
+     "n_train": 150
+    },
+    "play_game": {
+     "n": 22,
+     "intent_precision": 0.8095238095238095,
+     "intent_recall": 0.7727272727272727,
+     "intent_f1": 0.7906976744186046,
+     "exact_match": 0.5,
+     "slot_f1": 0.5,
+     "n_train": 112
+    },
+    "play_music": {
+     "n": 123,
+     "intent_precision": 0.7615384615384615,
+     "intent_recall": 0.8048780487804879,
+     "intent_f1": 0.782608695652174,
+     "exact_match": 0.3333333333333333,
+     "slot_f1": 0.34972677595628415,
+     "n_train": 639
+    },
+    "play_podcasts": {
+     "n": 34,
+     "intent_precision": 0.6,
+     "intent_recall": 0.5294117647058824,
+     "intent_f1": 0.5625,
+     "exact_match": 0.2647058823529412,
+     "slot_f1": 0.30769230769230765,
+     "n_train": 193
+    },
+    "play_radio": {
+     "n": 46,
+     "intent_precision": 0.6415094339622641,
+     "intent_recall": 0.7391304347826086,
+     "intent_f1": 0.6868686868686867,
+     "exact_match": 0.32608695652173914,
+     "slot_f1": 0.253968253968254,
+     "n_train": 283
+    },
+    "qa_currency": {
+     "n": 32,
+     "intent_precision": 0.8857142857142857,
+     "intent_recall": 0.96875,
+     "intent_f1": 0.9253731343283582,
+     "exact_match": 0.25,
+     "slot_f1": 0.38775510204081626,
+     "n_train": 142
+    },
+    "qa_definition": {
+     "n": 55,
+     "intent_precision": 0.74,
+     "intent_recall": 0.6727272727272727,
+     "intent_f1": 0.7047619047619048,
+     "exact_match": 0.21818181818181817,
+     "slot_f1": 0.19444444444444448,
+     "n_train": 267
+    },
+    "qa_factoid": {
+     "n": 90,
+     "intent_precision": 0.684931506849315,
+     "intent_recall": 0.5555555555555556,
+     "intent_f1": 0.6134969325153374,
+     "exact_match": 0.2111111111111111,
+     "slot_f1": 0.291970802919708,
+     "n_train": 544
+    },
+    "qa_maths": {
+     "n": 13,
+     "intent_precision": 0.7,
+     "intent_recall": 0.5384615384615384,
+     "intent_f1": 0.608695652173913,
+     "exact_match": 0.5384615384615384,
+     "slot_f1": 0.0,
+     "n_train": 78
+    },
+    "qa_stock": {
+     "n": 24,
+     "intent_precision": 0.875,
+     "intent_recall": 0.875,
+     "intent_f1": 0.875,
+     "exact_match": 0.5,
+     "slot_f1": 0.5714285714285714,
+     "n_train": 152
+    },
+    "recommendation_events": {
+     "n": 26,
+     "intent_precision": 0.65,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5652173913043479,
+     "exact_match": 0.11538461538461539,
+     "slot_f1": 0.2380952380952381,
+     "n_train": 190
+    },
+    "recommendation_locations": {
+     "n": 31,
+     "intent_precision": 0.6129032258064516,
+     "intent_recall": 0.6129032258064516,
+     "intent_f1": 0.6129032258064516,
+     "exact_match": 0.2903225806451613,
+     "slot_f1": 0.46153846153846156,
+     "n_train": 173
+    },
+    "recommendation_movies": {
+     "n": 12,
+     "intent_precision": 0.8333333333333334,
+     "intent_recall": 0.8333333333333334,
+     "intent_f1": 0.8333333333333334,
+     "exact_match": 0.25,
+     "slot_f1": 0.3529411764705882,
+     "n_train": 70
+    },
+    "social_post": {
+     "n": 50,
+     "intent_precision": 0.8913043478260869,
+     "intent_recall": 0.82,
+     "intent_f1": 0.8541666666666666,
+     "exact_match": 0.34,
+     "slot_f1": 0.6239999999999999,
+     "n_train": 283
+    },
+    "social_query": {
+     "n": 18,
+     "intent_precision": 0.5625,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5294117647058824,
+     "exact_match": 0.2222222222222222,
+     "slot_f1": 0.2222222222222222,
+     "n_train": 108
+    },
+    "takeaway_order": {
+     "n": 20,
+     "intent_precision": 0.65,
+     "intent_recall": 0.65,
+     "intent_f1": 0.65,
+     "exact_match": 0.4,
+     "slot_f1": 0.47619047619047616,
+     "n_train": 135
+    },
+    "takeaway_query": {
+     "n": 24,
+     "intent_precision": 0.782608695652174,
+     "intent_recall": 0.75,
+     "intent_f1": 0.7659574468085107,
+     "exact_match": 0.4166666666666667,
+     "slot_f1": 0.5999999999999999,
+     "n_train": 122
+    },
+    "transport_query": {
+     "n": 36,
+     "intent_precision": 0.7714285714285715,
+     "intent_recall": 0.75,
+     "intent_f1": 0.7605633802816902,
+     "exact_match": 0.2222222222222222,
+     "slot_f1": 0.5660377358490567,
+     "n_train": 227
+    },
+    "transport_taxi": {
+     "n": 27,
+     "intent_precision": 0.8620689655172413,
+     "intent_recall": 0.9259259259259259,
+     "intent_f1": 0.8928571428571429,
+     "exact_match": 0.5185185185185185,
+     "slot_f1": 0.6666666666666665,
+     "n_train": 100
+    },
+    "transport_ticket": {
+     "n": 25,
+     "intent_precision": 0.875,
+     "intent_recall": 0.84,
+     "intent_f1": 0.8571428571428572,
+     "exact_match": 0.32,
+     "slot_f1": 0.6153846153846154,
+     "n_train": 127
+    },
+    "transport_traffic": {
+     "n": 22,
+     "intent_precision": 0.9047619047619048,
+     "intent_recall": 0.8636363636363636,
+     "intent_f1": 0.8837209302325582,
+     "exact_match": 0.5,
+     "slot_f1": 0.46153846153846156,
+     "n_train": 117
+    },
+    "weather_query": {
+     "n": 126,
+     "intent_precision": 0.8976377952755905,
+     "intent_recall": 0.9047619047619048,
+     "intent_f1": 0.901185770750988,
+     "exact_match": 0.3253968253968254,
+     "slot_f1": 0.5065789473684211,
+     "n_train": 573
+    }
+   }
+  },
+  "fr-FR": {
+   "n": 2033,
+   "exact_match": 0.2966060009837678,
+   "exact_match_strict": 0.294146581406788,
+   "intent_accuracy": 0.6896212493851451,
+   "slot_precision": 0.4050707547169811,
+   "slot_recall": 0.3508682328907048,
+   "slot_f1": 0.37602627257799676,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 0.6645150597610283,
+   "macro_exact_match": 0.33109949633050867,
+   "macro_slot_f1": 0.33027601779051924,
+   "per_intent": {
+    "alarm_query": {
+     "n": 19,
+     "intent_precision": 0.5,
+     "intent_recall": 0.47368421052631576,
+     "intent_f1": 0.4864864864864865,
+     "exact_match": 0.3157894736842105,
+     "slot_f1": 0.26666666666666666,
+     "n_train": 130
+    },
+    "alarm_remove": {
+     "n": 14,
+     "intent_precision": 0.9166666666666666,
+     "intent_recall": 0.7857142857142857,
+     "intent_f1": 0.8461538461538461,
+     "exact_match": 0.21428571428571427,
+     "slot_f1": 0.2727272727272727,
+     "n_train": 78
+    },
+    "alarm_set": {
+     "n": 31,
+     "intent_precision": 0.5681818181818182,
+     "intent_recall": 0.8064516129032258,
+     "intent_f1": 0.6666666666666667,
+     "exact_match": 0.12903225806451613,
+     "slot_f1": 0.37142857142857144,
+     "n_train": 182
+    },
+    "audio_volume_down": {
+     "n": 8,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5714285714285715,
+     "exact_match": 0.5,
+     "slot_f1": 0.0,
+     "n_train": 52
+    },
+    "audio_volume_mute": {
+     "n": 15,
+     "intent_precision": 0.5333333333333333,
+     "intent_recall": 0.5333333333333333,
+     "intent_f1": 0.5333333333333333,
+     "exact_match": 0.26666666666666666,
+     "slot_f1": 0.0,
+     "n_train": 110
+    },
+    "audio_volume_up": {
+     "n": 12,
+     "intent_precision": 0.6470588235294118,
+     "intent_recall": 0.9166666666666666,
+     "intent_f1": 0.7586206896551724,
+     "exact_match": 0.6666666666666666,
+     "slot_f1": 0.3333333333333333,
+     "n_train": 110
+    },
+    "calendar_query": {
+     "n": 102,
+     "intent_precision": 0.6382978723404256,
+     "intent_recall": 0.5882352941176471,
+     "intent_f1": 0.6122448979591838,
+     "exact_match": 0.24509803921568626,
+     "slot_f1": 0.36521739130434777,
+     "n_train": 566
+    },
+    "calendar_remove": {
+     "n": 47,
+     "intent_precision": 0.6129032258064516,
+     "intent_recall": 0.8085106382978723,
+     "intent_f1": 0.6972477064220183,
+     "exact_match": 0.3829787234042553,
+     "slot_f1": 0.2857142857142857,
+     "n_train": 312
+    },
+    "calendar_set": {
+     "n": 131,
+     "intent_precision": 0.8333333333333334,
+     "intent_recall": 0.7251908396946565,
+     "intent_f1": 0.7755102040816326,
+     "exact_match": 0.1297709923664122,
+     "slot_f1": 0.3660886319845858,
+     "n_train": 810
+    },
+    "cooking_query": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 0.5,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.5,
+     "slot_f1": null,
+     "n_train": 4
+    },
+    "cooking_recipe": {
+     "n": 41,
+     "intent_precision": 0.8157894736842105,
+     "intent_recall": 0.7560975609756098,
+     "intent_f1": 0.7848101265822786,
+     "exact_match": 0.3170731707317073,
+     "slot_f1": 0.3235294117647059,
+     "n_train": 207
+    },
+    "datetime_convert": {
+     "n": 9,
+     "intent_precision": 0.7142857142857143,
+     "intent_recall": 0.5555555555555556,
+     "intent_f1": 0.6250000000000001,
+     "exact_match": 0.0,
+     "slot_f1": 0.4375,
+     "n_train": 52
+    },
+    "datetime_query": {
+     "n": 64,
+     "intent_precision": 0.6547619047619048,
+     "intent_recall": 0.859375,
+     "intent_f1": 0.7432432432432432,
+     "exact_match": 0.546875,
+     "slot_f1": 0.4485981308411215,
+     "n_train": 350
+    },
+    "email_addcontact": {
+     "n": 5,
+     "intent_precision": 0.5714285714285714,
+     "intent_recall": 0.8,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.4,
+     "slot_f1": 0.0,
+     "n_train": 54
+    },
+    "email_query": {
+     "n": 73,
+     "intent_precision": 0.7283950617283951,
+     "intent_recall": 0.8082191780821918,
+     "intent_f1": 0.7662337662337663,
+     "exact_match": 0.4383561643835616,
+     "slot_f1": 0.27906976744186046,
+     "n_train": 418
+    },
+    "email_querycontact": {
+     "n": 16,
+     "intent_precision": 0.5384615384615384,
+     "intent_recall": 0.4375,
+     "intent_f1": 0.4827586206896552,
+     "exact_match": 0.0625,
+     "slot_f1": 0.2105263157894737,
+     "n_train": 127
+    },
+    "email_sendemail": {
+     "n": 63,
+     "intent_precision": 0.8571428571428571,
+     "intent_recall": 0.7619047619047619,
+     "intent_f1": 0.8067226890756302,
+     "exact_match": 0.2857142857142857,
+     "slot_f1": 0.3157894736842105,
+     "n_train": 354
+    },
+    "general_greet": {
+     "n": 2,
+     "intent_precision": 0.125,
+     "intent_recall": 0.5,
+     "intent_f1": 0.2,
+     "exact_match": 0.0,
+     "slot_f1": 0.0,
+     "n_train": 25
+    },
+    "general_joke": {
+     "n": 15,
+     "intent_precision": 0.7647058823529411,
+     "intent_recall": 0.8666666666666667,
+     "intent_f1": 0.8125,
+     "exact_match": 0.3333333333333333,
+     "slot_f1": 0.125,
+     "n_train": 72
+    },
+    "general_quirky": {
+     "n": 105,
+     "intent_precision": 0.375,
+     "intent_recall": 0.2857142857142857,
+     "intent_f1": 0.3243243243243243,
+     "exact_match": 0.20952380952380953,
+     "slot_f1": 0.3225806451612903,
+     "n_train": 555
+    },
+    "iot_cleaning": {
+     "n": 19,
+     "intent_precision": 0.9375,
+     "intent_recall": 0.7894736842105263,
+     "intent_f1": 0.8571428571428572,
+     "exact_match": 0.42105263157894735,
+     "slot_f1": 0.5833333333333334,
+     "n_train": 93
+    },
+    "iot_coffee": {
+     "n": 14,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.8571428571428571,
+     "intent_f1": 0.75,
+     "exact_match": 0.7857142857142857,
+     "slot_f1": 0.5,
+     "n_train": 124
+    },
+    "iot_hue_lightchange": {
+     "n": 22,
+     "intent_precision": 0.8666666666666667,
+     "intent_recall": 0.5909090909090909,
+     "intent_f1": 0.7027027027027029,
+     "exact_match": 0.4090909090909091,
+     "slot_f1": 0.5,
+     "n_train": 125
+    },
+    "iot_hue_lightdim": {
+     "n": 17,
+     "intent_precision": 0.8571428571428571,
+     "intent_recall": 0.7058823529411765,
+     "intent_f1": 0.7741935483870968,
+     "exact_match": 0.5294117647058824,
+     "slot_f1": 0.5714285714285715,
+     "n_train": 76
+    },
+    "iot_hue_lightoff": {
+     "n": 17,
+     "intent_precision": 0.5416666666666666,
+     "intent_recall": 0.7647058823529411,
+     "intent_f1": 0.6341463414634146,
+     "exact_match": 0.47058823529411764,
+     "slot_f1": 0.5263157894736842,
+     "n_train": 153
+    },
+    "iot_hue_lighton": {
+     "n": 5,
+     "intent_precision": 0.5,
+     "intent_recall": 0.4,
+     "intent_f1": 0.4444444444444445,
+     "exact_match": 0.4,
+     "slot_f1": 0.0,
+     "n_train": 22
+    },
+    "iot_hue_lightup": {
+     "n": 12,
+     "intent_precision": 0.47619047619047616,
+     "intent_recall": 0.8333333333333334,
+     "intent_f1": 0.6060606060606061,
+     "exact_match": 0.4166666666666667,
+     "slot_f1": 0.0,
+     "n_train": 76
+    },
+    "iot_wemo_off": {
+     "n": 5,
+     "intent_precision": 0.5714285714285714,
+     "intent_recall": 0.8,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.4,
+     "slot_f1": 0.6666666666666665,
+     "n_train": 52
+    },
+    "iot_wemo_on": {
+     "n": 7,
+     "intent_precision": 0.8,
+     "intent_recall": 0.5714285714285714,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.42857142857142855,
+     "slot_f1": 0.7692307692307692,
+     "n_train": 48
+    },
+    "lists_createoradd": {
+     "n": 25,
+     "intent_precision": 0.6785714285714286,
+     "intent_recall": 0.76,
+     "intent_f1": 0.7169811320754718,
+     "exact_match": 0.56,
+     "slot_f1": 0.48000000000000004,
+     "n_train": 177
+    },
+    "lists_query": {
+     "n": 50,
+     "intent_precision": 0.7142857142857143,
+     "intent_recall": 0.7,
+     "intent_f1": 0.7070707070707072,
+     "exact_match": 0.48,
+     "slot_f1": 0.4000000000000001,
+     "n_train": 198
+    },
+    "lists_remove": {
+     "n": 37,
+     "intent_precision": 0.627906976744186,
+     "intent_recall": 0.7297297297297297,
+     "intent_f1": 0.675,
+     "exact_match": 0.3783783783783784,
+     "slot_f1": 0.2105263157894737,
+     "n_train": 164
+    },
+    "music_dislikeness": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 0.5,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.5,
+     "slot_f1": 0.0,
+     "n_train": 14
+    },
+    "music_likeness": {
+     "n": 16,
+     "intent_precision": 0.42857142857142855,
+     "intent_recall": 0.5625,
+     "intent_f1": 0.4864864864864864,
+     "exact_match": 0.5,
+     "slot_f1": 0.28571428571428575,
+     "n_train": 113
+    },
+    "music_query": {
+     "n": 30,
+     "intent_precision": 0.5925925925925926,
+     "intent_recall": 0.5333333333333333,
+     "intent_f1": 0.5614035087719299,
+     "exact_match": 0.5333333333333333,
+     "slot_f1": 0.5,
+     "n_train": 154
+    },
+    "music_settings": {
+     "n": 8,
+     "intent_precision": 0.5,
+     "intent_recall": 0.625,
+     "intent_f1": 0.5555555555555556,
+     "exact_match": 0.25,
+     "slot_f1": 0.42857142857142855,
+     "n_train": 51
+    },
+    "news_query": {
+     "n": 82,
+     "intent_precision": 0.6506024096385542,
+     "intent_recall": 0.6585365853658537,
+     "intent_f1": 0.6545454545454545,
+     "exact_match": 0.21951219512195122,
+     "slot_f1": 0.2878787878787879,
+     "n_train": 503
+    },
+    "play_audiobook": {
+     "n": 35,
+     "intent_precision": 0.7647058823529411,
+     "intent_recall": 0.7428571428571429,
+     "intent_f1": 0.7536231884057971,
+     "exact_match": 0.11428571428571428,
+     "slot_f1": 0.4038461538461538,
+     "n_train": 150
+    },
+    "play_game": {
+     "n": 22,
+     "intent_precision": 0.8,
+     "intent_recall": 0.7272727272727273,
+     "intent_f1": 0.761904761904762,
+     "exact_match": 0.4090909090909091,
+     "slot_f1": 0.37499999999999994,
+     "n_train": 112
+    },
+    "play_music": {
+     "n": 123,
+     "intent_precision": 0.7560975609756098,
+     "intent_recall": 0.7560975609756098,
+     "intent_f1": 0.7560975609756099,
+     "exact_match": 0.3008130081300813,
+     "slot_f1": 0.3756906077348066,
+     "n_train": 639
+    },
+    "play_podcasts": {
+     "n": 34,
+     "intent_precision": 0.6285714285714286,
+     "intent_recall": 0.6470588235294118,
+     "intent_f1": 0.6376811594202899,
+     "exact_match": 0.20588235294117646,
+     "slot_f1": 0.15789473684210528,
+     "n_train": 193
+    },
+    "play_radio": {
+     "n": 46,
+     "intent_precision": 0.7428571428571429,
+     "intent_recall": 0.5652173913043478,
+     "intent_f1": 0.6419753086419753,
+     "exact_match": 0.32608695652173914,
+     "slot_f1": 0.15384615384615383,
+     "n_train": 283
+    },
+    "qa_currency": {
+     "n": 32,
+     "intent_precision": 0.9142857142857143,
+     "intent_recall": 1.0,
+     "intent_f1": 0.955223880597015,
+     "exact_match": 0.3125,
+     "slot_f1": 0.5,
+     "n_train": 142
+    },
+    "qa_definition": {
+     "n": 55,
+     "intent_precision": 0.7058823529411765,
+     "intent_recall": 0.6545454545454545,
+     "intent_f1": 0.679245283018868,
+     "exact_match": 0.09090909090909091,
+     "slot_f1": 0.08450704225352113,
+     "n_train": 267
+    },
+    "qa_factoid": {
+     "n": 90,
+     "intent_precision": 0.6533333333333333,
+     "intent_recall": 0.5444444444444444,
+     "intent_f1": 0.593939393939394,
+     "exact_match": 0.2222222222222222,
+     "slot_f1": 0.25688073394495414,
+     "n_train": 544
+    },
+    "qa_maths": {
+     "n": 13,
+     "intent_precision": 0.7272727272727273,
+     "intent_recall": 0.6153846153846154,
+     "intent_f1": 0.6666666666666667,
+     "exact_match": 0.6153846153846154,
+     "slot_f1": null,
+     "n_train": 78
+    },
+    "qa_stock": {
+     "n": 24,
+     "intent_precision": 0.8888888888888888,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.761904761904762,
+     "exact_match": 0.16666666666666666,
+     "slot_f1": 0.1818181818181818,
+     "n_train": 152
+    },
+    "recommendation_events": {
+     "n": 26,
+     "intent_precision": 0.45454545454545453,
+     "intent_recall": 0.5769230769230769,
+     "intent_f1": 0.5084745762711863,
+     "exact_match": 0.15384615384615385,
+     "slot_f1": 0.186046511627907,
+     "n_train": 190
+    },
+    "recommendation_locations": {
+     "n": 31,
+     "intent_precision": 0.5172413793103449,
+     "intent_recall": 0.4838709677419355,
+     "intent_f1": 0.5000000000000001,
+     "exact_match": 0.22580645161290322,
+     "slot_f1": 0.3692307692307692,
+     "n_train": 173
+    },
+    "recommendation_movies": {
+     "n": 12,
+     "intent_precision": 0.6,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5454545454545454,
+     "exact_match": 0.16666666666666666,
+     "slot_f1": 0.11764705882352941,
+     "n_train": 70
+    },
+    "social_post": {
+     "n": 50,
+     "intent_precision": 0.8269230769230769,
+     "intent_recall": 0.86,
+     "intent_f1": 0.8431372549019608,
+     "exact_match": 0.26,
+     "slot_f1": 0.4626865671641791,
+     "n_train": 283
+    },
+    "social_query": {
+     "n": 18,
+     "intent_precision": 0.5,
+     "intent_recall": 0.4444444444444444,
+     "intent_f1": 0.47058823529411764,
+     "exact_match": 0.2222222222222222,
+     "slot_f1": 0.3333333333333333,
+     "n_train": 108
+    },
+    "takeaway_order": {
+     "n": 20,
+     "intent_precision": 0.6470588235294118,
+     "intent_recall": 0.55,
+     "intent_f1": 0.5945945945945946,
+     "exact_match": 0.25,
+     "slot_f1": 0.3333333333333333,
+     "n_train": 135
+    },
+    "takeaway_query": {
+     "n": 24,
+     "intent_precision": 0.7037037037037037,
+     "intent_recall": 0.7916666666666666,
+     "intent_f1": 0.7450980392156864,
+     "exact_match": 0.4166666666666667,
+     "slot_f1": 0.6229508196721312,
+     "n_train": 122
+    },
+    "transport_query": {
+     "n": 36,
+     "intent_precision": 0.6,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.631578947368421,
+     "exact_match": 0.08333333333333333,
+     "slot_f1": 0.43564356435643564,
+     "n_train": 227
+    },
+    "transport_taxi": {
+     "n": 27,
+     "intent_precision": 0.71875,
+     "intent_recall": 0.8518518518518519,
+     "intent_f1": 0.7796610169491525,
+     "exact_match": 0.37037037037037035,
+     "slot_f1": 0.5777777777777778,
+     "n_train": 100
+    },
+    "transport_ticket": {
+     "n": 25,
+     "intent_precision": 0.76,
+     "intent_recall": 0.76,
+     "intent_f1": 0.76,
+     "exact_match": 0.24,
+     "slot_f1": 0.6666666666666665,
+     "n_train": 127
+    },
+    "transport_traffic": {
+     "n": 22,
+     "intent_precision": 0.782608695652174,
+     "intent_recall": 0.8181818181818182,
+     "intent_f1": 0.8,
+     "exact_match": 0.45454545454545453,
+     "slot_f1": 0.33333333333333337,
+     "n_train": 117
+    },
+    "weather_query": {
+     "n": 126,
+     "intent_precision": 0.8538461538461538,
+     "intent_recall": 0.8809523809523809,
+     "intent_f1": 0.8671875,
+     "exact_match": 0.30158730158730157,
+     "slot_f1": 0.4641638225255973,
+     "n_train": 573
+    }
+   }
+  },
+  "ar-SA": {
+   "n": 2033,
+   "exact_match": 0.2867683226758485,
+   "exact_match_strict": 0.28332513526807673,
+   "intent_accuracy": 0.632070831283817,
+   "slot_precision": 0.40165876777251186,
+   "slot_recall": 0.3391695847923962,
+   "slot_f1": 0.36777868185516677,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 0.6047028478885026,
+   "macro_exact_match": 0.32102838730929933,
+   "macro_slot_f1": 0.31277111001794405,
+   "per_intent": {
+    "alarm_query": {
+     "n": 19,
+     "intent_precision": 0.5294117647058824,
+     "intent_recall": 0.47368421052631576,
+     "intent_f1": 0.5,
+     "exact_match": 0.2631578947368421,
+     "slot_f1": 0.10526315789473685,
+     "n_train": 130
+    },
+    "alarm_remove": {
+     "n": 14,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.7142857142857143,
+     "intent_f1": 0.689655172413793,
+     "exact_match": 0.2857142857142857,
+     "slot_f1": 0.2608695652173913,
+     "n_train": 78
+    },
+    "alarm_set": {
+     "n": 31,
+     "intent_precision": 0.3389830508474576,
+     "intent_recall": 0.6451612903225806,
+     "intent_f1": 0.4444444444444444,
+     "exact_match": 0.16129032258064516,
+     "slot_f1": 0.1967213114754098,
+     "n_train": 182
+    },
+    "audio_volume_down": {
+     "n": 8,
+     "intent_precision": 0.75,
+     "intent_recall": 0.375,
+     "intent_f1": 0.5,
+     "exact_match": 0.375,
+     "slot_f1": 0.0,
+     "n_train": 52
+    },
+    "audio_volume_mute": {
+     "n": 15,
+     "intent_precision": 0.5294117647058824,
+     "intent_recall": 0.6,
+     "intent_f1": 0.5625,
+     "exact_match": 0.5333333333333333,
+     "slot_f1": 0.0,
+     "n_train": 110
+    },
+    "audio_volume_up": {
+     "n": 12,
+     "intent_precision": 0.6875,
+     "intent_recall": 0.9166666666666666,
+     "intent_f1": 0.7857142857142857,
+     "exact_match": 0.8333333333333334,
+     "slot_f1": 0.0,
+     "n_train": 110
+    },
+    "calendar_query": {
+     "n": 102,
+     "intent_precision": 0.49019607843137253,
+     "intent_recall": 0.49019607843137253,
+     "intent_f1": 0.49019607843137253,
+     "exact_match": 0.14705882352941177,
+     "slot_f1": 0.334841628959276,
+     "n_train": 566
+    },
+    "calendar_remove": {
+     "n": 47,
+     "intent_precision": 0.575,
+     "intent_recall": 0.48936170212765956,
+     "intent_f1": 0.5287356321839081,
+     "exact_match": 0.23404255319148937,
+     "slot_f1": 0.3541666666666667,
+     "n_train": 312
+    },
+    "calendar_set": {
+     "n": 131,
+     "intent_precision": 0.5833333333333334,
+     "intent_recall": 0.5343511450381679,
+     "intent_f1": 0.5577689243027889,
+     "exact_match": 0.09923664122137404,
+     "slot_f1": 0.33333333333333337,
+     "n_train": 810
+    },
+    "cooking_query": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 0.5,
+     "intent_f1": 0.6666666666666666,
+     "exact_match": 0.5,
+     "slot_f1": null,
+     "n_train": 4
+    },
+    "cooking_recipe": {
+     "n": 41,
+     "intent_precision": 0.918918918918919,
+     "intent_recall": 0.8292682926829268,
+     "intent_f1": 0.8717948717948718,
+     "exact_match": 0.12195121951219512,
+     "slot_f1": 0.028985507246376812,
+     "n_train": 207
+    },
+    "datetime_convert": {
+     "n": 9,
+     "intent_precision": 0.5714285714285714,
+     "intent_recall": 0.4444444444444444,
+     "intent_f1": 0.5,
+     "exact_match": 0.0,
+     "slot_f1": 0.20689655172413793,
+     "n_train": 52
+    },
+    "datetime_query": {
+     "n": 64,
+     "intent_precision": 0.6235294117647059,
+     "intent_recall": 0.828125,
+     "intent_f1": 0.7114093959731543,
+     "exact_match": 0.375,
+     "slot_f1": 0.41071428571428575,
+     "n_train": 350
+    },
+    "email_addcontact": {
+     "n": 5,
+     "intent_precision": 0.2857142857142857,
+     "intent_recall": 0.4,
+     "intent_f1": 0.3333333333333333,
+     "exact_match": 0.2,
+     "slot_f1": 0.0,
+     "n_train": 54
+    },
+    "email_query": {
+     "n": 73,
+     "intent_precision": 0.8450704225352113,
+     "intent_recall": 0.821917808219178,
+     "intent_f1": 0.8333333333333333,
+     "exact_match": 0.410958904109589,
+     "slot_f1": 0.2619047619047619,
+     "n_train": 418
+    },
+    "email_querycontact": {
+     "n": 16,
+     "intent_precision": 0.5384615384615384,
+     "intent_recall": 0.4375,
+     "intent_f1": 0.4827586206896552,
+     "exact_match": 0.0625,
+     "slot_f1": 0.23529411764705882,
+     "n_train": 127
+    },
+    "email_sendemail": {
+     "n": 63,
+     "intent_precision": 0.7903225806451613,
+     "intent_recall": 0.7777777777777778,
+     "intent_f1": 0.7839999999999999,
+     "exact_match": 0.23809523809523808,
+     "slot_f1": 0.26785714285714285,
+     "n_train": 354
+    },
+    "general_greet": {
+     "n": 2,
+     "intent_precision": 0.4,
+     "intent_recall": 1.0,
+     "intent_f1": 0.5714285714285715,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 25
+    },
+    "general_joke": {
+     "n": 15,
+     "intent_precision": 0.631578947368421,
+     "intent_recall": 0.8,
+     "intent_f1": 0.7058823529411765,
+     "exact_match": 0.4,
+     "slot_f1": 0.3333333333333333,
+     "n_train": 72
+    },
+    "general_quirky": {
+     "n": 105,
+     "intent_precision": 0.4084507042253521,
+     "intent_recall": 0.2761904761904762,
+     "intent_f1": 0.3295454545454546,
+     "exact_match": 0.2,
+     "slot_f1": 0.23333333333333336,
+     "n_train": 555
+    },
+    "iot_cleaning": {
+     "n": 19,
+     "intent_precision": 0.8333333333333334,
+     "intent_recall": 0.7894736842105263,
+     "intent_f1": 0.8108108108108109,
+     "exact_match": 0.47368421052631576,
+     "slot_f1": 0.5853658536585366,
+     "n_train": 93
+    },
+    "iot_coffee": {
+     "n": 14,
+     "intent_precision": 0.9285714285714286,
+     "intent_recall": 0.9285714285714286,
+     "intent_f1": 0.9285714285714286,
+     "exact_match": 0.7857142857142857,
+     "slot_f1": 0.3333333333333333,
+     "n_train": 124
+    },
+    "iot_hue_lightchange": {
+     "n": 22,
+     "intent_precision": 0.6666666666666666,
+     "intent_recall": 0.5454545454545454,
+     "intent_f1": 0.6,
+     "exact_match": 0.18181818181818182,
+     "slot_f1": 0.24242424242424243,
+     "n_train": 125
+    },
+    "iot_hue_lightdim": {
+     "n": 17,
+     "intent_precision": 0.6923076923076923,
+     "intent_recall": 0.5294117647058824,
+     "intent_f1": 0.5999999999999999,
+     "exact_match": 0.29411764705882354,
+     "slot_f1": 0.39999999999999997,
+     "n_train": 76
+    },
+    "iot_hue_lightoff": {
+     "n": 17,
+     "intent_precision": 0.55,
+     "intent_recall": 0.6470588235294118,
+     "intent_f1": 0.5945945945945946,
+     "exact_match": 0.29411764705882354,
+     "slot_f1": 0.380952380952381,
+     "n_train": 153
+    },
+    "iot_hue_lighton": {
+     "n": 5,
+     "intent_precision": 0.5,
+     "intent_recall": 0.6,
+     "intent_f1": 0.5454545454545454,
+     "exact_match": 0.2,
+     "slot_f1": 0.5,
+     "n_train": 22
+    },
+    "iot_hue_lightup": {
+     "n": 12,
+     "intent_precision": 0.5454545454545454,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5217391304347826,
+     "exact_match": 0.4166666666666667,
+     "slot_f1": 0.0,
+     "n_train": 76
+    },
+    "iot_wemo_off": {
+     "n": 5,
+     "intent_precision": 0.375,
+     "intent_recall": 0.6,
+     "intent_f1": 0.4615384615384615,
+     "exact_match": 0.4,
+     "slot_f1": 0.8000000000000002,
+     "n_train": 52
+    },
+    "iot_wemo_on": {
+     "n": 7,
+     "intent_precision": 0.4444444444444444,
+     "intent_recall": 0.5714285714285714,
+     "intent_f1": 0.5,
+     "exact_match": 0.2857142857142857,
+     "slot_f1": 0.6153846153846153,
+     "n_train": 48
+    },
+    "lists_createoradd": {
+     "n": 25,
+     "intent_precision": 0.6,
+     "intent_recall": 0.84,
+     "intent_f1": 0.7000000000000001,
+     "exact_match": 0.6,
+     "slot_f1": 0.34782608695652173,
+     "n_train": 177
+    },
+    "lists_query": {
+     "n": 50,
+     "intent_precision": 0.7111111111111111,
+     "intent_recall": 0.64,
+     "intent_f1": 0.6736842105263158,
+     "exact_match": 0.54,
+     "slot_f1": 0.5555555555555556,
+     "n_train": 198
+    },
+    "lists_remove": {
+     "n": 37,
+     "intent_precision": 0.6176470588235294,
+     "intent_recall": 0.5675675675675675,
+     "intent_f1": 0.5915492957746479,
+     "exact_match": 0.3783783783783784,
+     "slot_f1": 0.34285714285714286,
+     "n_train": 164
+    },
+    "music_dislikeness": {
+     "n": 2,
+     "intent_precision": 0.0,
+     "intent_recall": 0.0,
+     "intent_f1": 0.0,
+     "exact_match": 0.0,
+     "slot_f1": 0.0,
+     "n_train": 14
+    },
+    "music_likeness": {
+     "n": 16,
+     "intent_precision": 0.35714285714285715,
+     "intent_recall": 0.3125,
+     "intent_f1": 0.3333333333333333,
+     "exact_match": 0.25,
+     "slot_f1": 0.1818181818181818,
+     "n_train": 113
+    },
+    "music_query": {
+     "n": 30,
+     "intent_precision": 0.38095238095238093,
+     "intent_recall": 0.5333333333333333,
+     "intent_f1": 0.4444444444444444,
+     "exact_match": 0.5,
+     "slot_f1": 0.10526315789473685,
+     "n_train": 154
+    },
+    "music_settings": {
+     "n": 8,
+     "intent_precision": 0.5714285714285714,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5333333333333333,
+     "exact_match": 0.125,
+     "slot_f1": 0.35294117647058826,
+     "n_train": 51
+    },
+    "news_query": {
+     "n": 82,
+     "intent_precision": 0.6352941176470588,
+     "intent_recall": 0.6585365853658537,
+     "intent_f1": 0.6467065868263472,
+     "exact_match": 0.1951219512195122,
+     "slot_f1": 0.18840579710144928,
+     "n_train": 503
+    },
+    "play_audiobook": {
+     "n": 35,
+     "intent_precision": 0.7941176470588235,
+     "intent_recall": 0.7714285714285715,
+     "intent_f1": 0.782608695652174,
+     "exact_match": 0.11428571428571428,
+     "slot_f1": 0.3619047619047619,
+     "n_train": 150
+    },
+    "play_game": {
+     "n": 22,
+     "intent_precision": 0.6818181818181818,
+     "intent_recall": 0.6818181818181818,
+     "intent_f1": 0.6818181818181818,
+     "exact_match": 0.4090909090909091,
+     "slot_f1": 0.3157894736842105,
+     "n_train": 112
+    },
+    "play_music": {
+     "n": 123,
+     "intent_precision": 0.675,
+     "intent_recall": 0.6585365853658537,
+     "intent_f1": 0.6666666666666667,
+     "exact_match": 0.2926829268292683,
+     "slot_f1": 0.29743589743589743,
+     "n_train": 639
+    },
+    "play_podcasts": {
+     "n": 34,
+     "intent_precision": 0.7241379310344828,
+     "intent_recall": 0.6176470588235294,
+     "intent_f1": 0.6666666666666667,
+     "exact_match": 0.23529411764705882,
+     "slot_f1": 0.2608695652173913,
+     "n_train": 193
+    },
+    "play_radio": {
+     "n": 46,
+     "intent_precision": 0.7435897435897436,
+     "intent_recall": 0.6304347826086957,
+     "intent_f1": 0.6823529411764706,
+     "exact_match": 0.1956521739130435,
+     "slot_f1": 0.12121212121212122,
+     "n_train": 283
+    },
+    "qa_currency": {
+     "n": 32,
+     "intent_precision": 0.8787878787878788,
+     "intent_recall": 0.90625,
+     "intent_f1": 0.8923076923076922,
+     "exact_match": 0.5625,
+     "slot_f1": 0.6990291262135924,
+     "n_train": 142
+    },
+    "qa_definition": {
+     "n": 55,
+     "intent_precision": 0.6041666666666666,
+     "intent_recall": 0.5272727272727272,
+     "intent_f1": 0.5631067961165047,
+     "exact_match": 0.16363636363636364,
+     "slot_f1": 0.17948717948717952,
+     "n_train": 267
+    },
+    "qa_factoid": {
+     "n": 90,
+     "intent_precision": 0.6375,
+     "intent_recall": 0.5666666666666667,
+     "intent_f1": 0.6,
+     "exact_match": 0.35555555555555557,
+     "slot_f1": 0.4732824427480916,
+     "n_train": 544
+    },
+    "qa_maths": {
+     "n": 13,
+     "intent_precision": 0.8571428571428571,
+     "intent_recall": 0.46153846153846156,
+     "intent_f1": 0.6,
+     "exact_match": 0.46153846153846156,
+     "slot_f1": 0.0,
+     "n_train": 78
+    },
+    "qa_stock": {
+     "n": 24,
+     "intent_precision": 0.8421052631578947,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.744186046511628,
+     "exact_match": 0.4583333333333333,
+     "slot_f1": 0.46511627906976744,
+     "n_train": 152
+    },
+    "recommendation_events": {
+     "n": 26,
+     "intent_precision": 0.5,
+     "intent_recall": 0.5384615384615384,
+     "intent_f1": 0.5185185185185186,
+     "exact_match": 0.23076923076923078,
+     "slot_f1": 0.2790697674418605,
+     "n_train": 190
+    },
+    "recommendation_locations": {
+     "n": 31,
+     "intent_precision": 0.7272727272727273,
+     "intent_recall": 0.5161290322580645,
+     "intent_f1": 0.6037735849056604,
+     "exact_match": 0.22580645161290322,
+     "slot_f1": 0.39344262295081966,
+     "n_train": 173
+    },
+    "recommendation_movies": {
+     "n": 12,
+     "intent_precision": 0.6363636363636364,
+     "intent_recall": 0.5833333333333334,
+     "intent_f1": 0.6086956521739131,
+     "exact_match": 0.08333333333333333,
+     "slot_f1": 0.0,
+     "n_train": 70
+    },
+    "social_post": {
+     "n": 50,
+     "intent_precision": 0.8222222222222222,
+     "intent_recall": 0.74,
+     "intent_f1": 0.7789473684210526,
+     "exact_match": 0.38,
+     "slot_f1": 0.5801526717557252,
+     "n_train": 283
+    },
+    "social_query": {
+     "n": 18,
+     "intent_precision": 0.47368421052631576,
+     "intent_recall": 0.5,
+     "intent_f1": 0.4864864864864865,
+     "exact_match": 0.2777777777777778,
+     "slot_f1": 0.411764705882353,
+     "n_train": 108
+    },
+    "takeaway_order": {
+     "n": 20,
+     "intent_precision": 0.5555555555555556,
+     "intent_recall": 0.5,
+     "intent_f1": 0.5263157894736842,
+     "exact_match": 0.15,
+     "slot_f1": 0.25,
+     "n_train": 135
+    },
+    "takeaway_query": {
+     "n": 24,
+     "intent_precision": 0.7619047619047619,
+     "intent_recall": 0.6666666666666666,
+     "intent_f1": 0.7111111111111111,
+     "exact_match": 0.2916666666666667,
+     "slot_f1": 0.45614035087719296,
+     "n_train": 122
+    },
+    "transport_query": {
+     "n": 36,
+     "intent_precision": 0.4888888888888889,
+     "intent_recall": 0.6111111111111112,
+     "intent_f1": 0.5432098765432098,
+     "exact_match": 0.3888888888888889,
+     "slot_f1": 0.6138613861386139,
+     "n_train": 227
+    },
+    "transport_taxi": {
+     "n": 27,
+     "intent_precision": 0.7407407407407407,
+     "intent_recall": 0.7407407407407407,
+     "intent_f1": 0.7407407407407407,
+     "exact_match": 0.3333333333333333,
+     "slot_f1": 0.5783132530120482,
+     "n_train": 100
+    },
+    "transport_ticket": {
+     "n": 25,
+     "intent_precision": 0.6842105263157895,
+     "intent_recall": 0.52,
+     "intent_f1": 0.5909090909090909,
+     "exact_match": 0.16,
+     "slot_f1": 0.6818181818181818,
+     "n_train": 127
+    },
+    "transport_traffic": {
+     "n": 22,
+     "intent_precision": 0.4090909090909091,
+     "intent_recall": 0.8181818181818182,
+     "intent_f1": 0.5454545454545455,
+     "exact_match": 0.5,
+     "slot_f1": 0.42857142857142855,
+     "n_train": 117
+    },
+    "weather_query": {
+     "n": 126,
+     "intent_precision": 0.7417218543046358,
+     "intent_recall": 0.8888888888888888,
+     "intent_f1": 0.8086642599277979,
+     "exact_match": 0.30952380952380953,
+     "slot_f1": 0.48504983388704315,
+     "n_train": 573
+    }
+   }
+  }
+ },
+ "seen_unseen": {
+  "overall": {
+   "seen": {
+    "n": 258,
+    "exact_match": 0.8294573643410853,
+    "intent_accuracy": 0.872093023255814,
+    "slot_f1": 0.9387755102040817
+   },
+   "unseen": {
+    "n": 5841,
+    "exact_match": 0.28762198253723675,
+    "intent_accuracy": 0.672316384180791,
+    "slot_f1": 0.3791870530673692
+   }
+  },
+  "en-US": {
+   "seen": {
+    "n": 11,
+    "exact_match": 0.9090909090909091,
+    "intent_accuracy": 0.9090909090909091,
+    "slot_f1": 1.0
+   },
+   "unseen": {
+    "n": 2022,
+    "exact_match": 0.34520276953511375,
+    "intent_accuracy": 0.7195845697329377,
+    "slot_f1": 0.44407530454042077
+   }
+  },
+  "fr-FR": {
+   "seen": {
+    "n": 98,
+    "exact_match": 0.8877551020408163,
+    "intent_accuracy": 0.9387755102040817,
+    "slot_f1": 0.9357798165137615
+   },
+   "unseen": {
+    "n": 1935,
+    "exact_match": 0.26666666666666666,
+    "intent_accuracy": 0.6770025839793282,
+    "slot_f1": 0.35881523272214383
+   }
+  },
+  "ar-SA": {
+   "seen": {
+    "n": 149,
+    "exact_match": 0.785234899328859,
+    "intent_accuracy": 0.825503355704698,
+    "slot_f1": 0.9351851851851852
+   },
+   "unseen": {
+    "n": 1884,
+    "exact_match": 0.24734607218683652,
+    "intent_accuracy": 0.6167728237791932,
+    "slot_f1": 0.33246902909824266
+   }
+  }
+ }
+}

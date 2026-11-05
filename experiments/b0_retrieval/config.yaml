@@ -1,0 +1,15 @@
+# B0: nearest train utterance by TF-IDF, per locale. No training and no randomness.
+name: b0_retrieval
+seed: 0
+data_dir: data/massive
+locales: [en-US, fr-FR, ar-SA]
+split: dev
+sublinear_tf: true
+select_by: exact_match
+variants:
+  word:
+    analyzer: word
+    ngram_range: [1, 2]
+  char:
+    analyzer: char_wb
+    ngram_range: [2, 5]

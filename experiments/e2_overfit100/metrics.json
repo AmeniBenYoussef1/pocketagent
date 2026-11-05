@@ -1,0 +1,1072 @@
+{
+ "split": "train",
+ "results": {
+  "overall": {
+   "n": 100,
+   "exact_match": 1.0,
+   "exact_match_strict": 1.0,
+   "intent_accuracy": 1.0,
+   "slot_precision": 1.0,
+   "slot_recall": 1.0,
+   "slot_f1": 1.0,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 1.0,
+   "macro_exact_match": 1.0,
+   "macro_slot_f1": 1.0,
+   "per_intent": {
+    "alarm_query": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 390
+    },
+    "alarm_remove": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 234
+    },
+    "alarm_set": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 546
+    },
+    "audio_volume_mute": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 330
+    },
+    "audio_volume_up": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 330
+    },
+    "calendar_query": {
+     "n": 9,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1698
+    },
+    "calendar_remove": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 936
+    },
+    "calendar_set": {
+     "n": 10,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 2430
+    },
+    "cooking_recipe": {
+     "n": 5,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 621
+    },
+    "datetime_convert": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 156
+    },
+    "datetime_query": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1050
+    },
+    "email_querycontact": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 381
+    },
+    "email_sendemail": {
+     "n": 4,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1062
+    },
+    "general_greet": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 75
+    },
+    "general_quirky": {
+     "n": 4,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1665
+    },
+    "iot_coffee": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 372
+    },
+    "iot_hue_lightchange": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 375
+    },
+    "iot_hue_lightdim": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 228
+    },
+    "iot_hue_lightoff": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 459
+    },
+    "iot_wemo_on": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 144
+    },
+    "lists_query": {
+     "n": 4,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 594
+    },
+    "lists_remove": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 492
+    },
+    "music_likeness": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 339
+    },
+    "music_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 462
+    },
+    "news_query": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1509
+    },
+    "play_audiobook": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 450
+    },
+    "play_music": {
+     "n": 8,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1917
+    },
+    "play_podcasts": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 579
+    },
+    "play_radio": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 849
+    },
+    "qa_currency": {
+     "n": 3,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 426
+    },
+    "qa_factoid": {
+     "n": 5,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1632
+    },
+    "qa_stock": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 456
+    },
+    "social_post": {
+     "n": 4,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 849
+    },
+    "social_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 324
+    },
+    "takeaway_order": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 405
+    },
+    "takeaway_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 366
+    },
+    "transport_traffic": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 351
+    },
+    "weather_query": {
+     "n": 4,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 1719
+    }
+   }
+  },
+  "en-US": {
+   "n": 37,
+   "exact_match": 1.0,
+   "exact_match_strict": 1.0,
+   "intent_accuracy": 1.0,
+   "slot_precision": 1.0,
+   "slot_recall": 1.0,
+   "slot_f1": 1.0,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 1.0,
+   "macro_exact_match": 1.0,
+   "macro_slot_f1": 1.0,
+   "per_intent": {
+    "alarm_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 130
+    },
+    "alarm_set": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 182
+    },
+    "audio_volume_up": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 110
+    },
+    "calendar_query": {
+     "n": 5,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 566
+    },
+    "calendar_remove": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 312
+    },
+    "calendar_set": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 810
+    },
+    "cooking_recipe": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 207
+    },
+    "email_querycontact": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 127
+    },
+    "email_sendemail": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 354
+    },
+    "general_quirky": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 555
+    },
+    "iot_hue_lightchange": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 125
+    },
+    "iot_hue_lightoff": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 153
+    },
+    "lists_remove": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 164
+    },
+    "music_likeness": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 113
+    },
+    "play_audiobook": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 150
+    },
+    "play_music": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 639
+    },
+    "play_radio": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 283
+    },
+    "qa_currency": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 142
+    },
+    "qa_factoid": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 544
+    },
+    "qa_stock": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 152
+    },
+    "social_post": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 283
+    },
+    "social_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 108
+    },
+    "takeaway_order": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 135
+    },
+    "transport_traffic": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 117
+    },
+    "weather_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 573
+    }
+   }
+  },
+  "fr-FR": {
+   "n": 36,
+   "exact_match": 1.0,
+   "exact_match_strict": 1.0,
+   "intent_accuracy": 1.0,
+   "slot_precision": 1.0,
+   "slot_recall": 1.0,
+   "slot_f1": 1.0,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 1.0,
+   "macro_exact_match": 1.0,
+   "macro_slot_f1": 1.0,
+   "per_intent": {
+    "alarm_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 130
+    },
+    "alarm_remove": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 78
+    },
+    "alarm_set": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 182
+    },
+    "audio_volume_mute": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 110
+    },
+    "calendar_query": {
+     "n": 3,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 566
+    },
+    "calendar_set": {
+     "n": 6,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 810
+    },
+    "cooking_recipe": {
+     "n": 3,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 207
+    },
+    "datetime_convert": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 52
+    },
+    "datetime_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 350
+    },
+    "email_sendemail": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 354
+    },
+    "general_quirky": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 555
+    },
+    "iot_coffee": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 124
+    },
+    "lists_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 198
+    },
+    "music_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 154
+    },
+    "news_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 503
+    },
+    "play_music": {
+     "n": 3,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 639
+    },
+    "play_podcasts": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 193
+    },
+    "play_radio": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 283
+    },
+    "qa_factoid": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 544
+    },
+    "social_post": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 283
+    },
+    "takeaway_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 122
+    },
+    "weather_query": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 573
+    }
+   }
+  },
+  "ar-SA": {
+   "n": 27,
+   "exact_match": 1.0,
+   "exact_match_strict": 1.0,
+   "intent_accuracy": 1.0,
+   "slot_precision": 1.0,
+   "slot_recall": 1.0,
+   "slot_f1": 1.0,
+   "parse_rate": 1.0,
+   "valid_call_rate": 1.0,
+   "macro_intent_f1": 1.0,
+   "macro_exact_match": 1.0,
+   "macro_slot_f1": 1.0,
+   "per_intent": {
+    "calendar_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 566
+    },
+    "calendar_remove": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 312
+    },
+    "calendar_set": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 810
+    },
+    "datetime_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 350
+    },
+    "general_greet": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 25
+    },
+    "general_quirky": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 555
+    },
+    "iot_coffee": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 124
+    },
+    "iot_hue_lightdim": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 76
+    },
+    "iot_hue_lightoff": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 153
+    },
+    "iot_wemo_on": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 48
+    },
+    "lists_query": {
+     "n": 3,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 198
+    },
+    "music_likeness": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": null,
+     "n_train": 113
+    },
+    "news_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 503
+    },
+    "play_audiobook": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 150
+    },
+    "play_music": {
+     "n": 3,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 639
+    },
+    "qa_currency": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 142
+    },
+    "qa_factoid": {
+     "n": 2,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 544
+    },
+    "social_post": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 283
+    },
+    "takeaway_order": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 135
+    },
+    "weather_query": {
+     "n": 1,
+     "intent_precision": 1.0,
+     "intent_recall": 1.0,
+     "intent_f1": 1.0,
+     "exact_match": 1.0,
+     "slot_f1": 1.0,
+     "n_train": 573
+    }
+   }
+  }
+ },
+ "seen_unseen": {
+  "overall": {
+   "seen": {
+    "n": 100,
+    "exact_match": 1.0,
+    "intent_accuracy": 1.0,
+    "slot_f1": 1.0
+   },
+   "unseen": {
+    "n": 0,
+    "exact_match": null,
+    "intent_accuracy": null,
+    "slot_f1": null
+   }
+  },
+  "en-US": {
+   "seen": {
+    "n": 37,
+    "exact_match": 1.0,
+    "intent_accuracy": 1.0,
+    "slot_f1": 1.0
+   },
+   "unseen": {
+    "n": 0,
+    "exact_match": null,
+    "intent_accuracy": null,
+    "slot_f1": null
+   }
+  },
+  "fr-FR": {
+   "seen": {
+    "n": 36,
+    "exact_match": 1.0,
+    "intent_accuracy": 1.0,
+    "slot_f1": 1.0
+   },
+   "unseen": {
+    "n": 0,
+    "exact_match": null,
+    "intent_accuracy": null,
+    "slot_f1": null
+   }
+  },
+  "ar-SA": {
+   "seen": {
+    "n": 27,
+    "exact_match": 1.0,
+    "intent_accuracy": 1.0,
+    "slot_f1": 1.0
+   },
+   "unseen": {
+    "n": 0,
+    "exact_match": null,
+    "intent_accuracy": null,
+    "slot_f1": null
+   }
+  }
+ }
+}

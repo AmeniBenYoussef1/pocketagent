@@ -1,0 +1,8 @@
+experiments\e7_copy_en_beam3 (dev), 4.7s on cuda
+                EM EM strict    intent   slot F1     valid   mF1 int       mEM  mF1 slot
+overall      63.1%     63.1%     83.5%     75.4%    100.0%     81.3%     63.5%     71.1%
+en-US        63.1%     63.1%     83.5%     75.4%    100.0%     81.3%     63.5%     71.1%
+          n seen        EM    intent   slot F1  n unseen        EM    intent   slot F1
+overall       11     81.8%     90.9%     94.7%      2022     63.0%     83.4%     75.3%
+en-US         11     81.8%     90.9%     94.7%      2022     63.0%     83.4%     75.3%
+exit code 0

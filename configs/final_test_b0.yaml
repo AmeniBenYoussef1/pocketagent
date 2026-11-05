@@ -1,0 +1,12 @@
+# B0 on the test split, for the final comparison. Same setup as the chosen dev variant (char 2-5 grams).
+name: final_test/b0_retrieval
+seed: 0
+data_dir: data/massive
+locales: [en-US, fr-FR, ar-SA]
+split: test
+sublinear_tf: true
+select_by: exact_match
+variants:
+  char:
+    analyzer: char_wb
+    ngram_range: [2, 5]

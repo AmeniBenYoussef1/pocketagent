@@ -1,0 +1,26 @@
+e7_copy_ar: 20.06M params on cuda NVIDIA GeForce GTX 1650 with Max-Q Design
+train 11510 (dropped 4 long targets), eval 2033 (dev)
+epoch   1  train 1.2407  eval 0.7265  EM  14.9%  (35.3s train, 3.0s eval)
+epoch   2  train 0.6313  eval 0.5043  EM  31.4%  (35.4s train, 2.7s eval)
+epoch   3  train 0.4408  eval 0.4210  EM  39.8%  (35.4s train, 2.9s eval)
+epoch   4  train 0.3386  eval 0.3894  EM  44.1%  (49.1s train, 3.1s eval)
+epoch   5  train 0.2675  eval 0.3713  EM  47.4%  (47.4s train, 2.9s eval)
+epoch   6  train 0.2163  eval 0.3805  EM  47.4%  (50.4s train, 3.0s eval)
+epoch   7  train 0.1815  eval 0.3894  EM  46.8%  (49.0s train, 3.2s eval)
+epoch   8  train 0.1534  eval 0.3984  EM  48.6%  (49.3s train, 2.9s eval)
+epoch   9  train 0.1274  eval 0.4103  EM  48.8%  (51.7s train, 3.0s eval)
+epoch  10  train 0.1162  eval 0.4259  EM  48.5%  (50.7s train, 3.2s eval)
+epoch  11  train 0.1013  eval 0.4267  EM  49.2%  (50.9s train, 3.0s eval)
+epoch  12  train 0.0841  eval 0.4335  EM  49.8%  (50.4s train, 3.3s eval)
+epoch  13  train 0.0752  eval 0.4588  EM  48.7%  (50.4s train, 3.0s eval)
+epoch  14  train 0.0670  eval 0.4677  EM  49.5%  (51.0s train, 2.9s eval)
+epoch  15  train 0.0629  eval 0.4633  EM  49.3%  (49.9s train, 3.0s eval)
+epoch  16  train 0.0585  eval 0.4836  EM  49.0%  (48.7s train, 2.9s eval)
+epoch  17  train 0.0528  eval 0.4938  EM  48.7%  (50.5s train, 3.0s eval)
+early stop: no dev EM gain for 5 epochs
+
+best epoch 12 (dev)
+                EM EM strict    intent   slot F1     valid   mF1 int       mEM  mF1 slot
+overall      49.8%     49.8%     74.3%     64.3%     99.9%     68.7%     48.0%     55.6%
+ar-SA        49.8%     49.8%     74.3%     64.3%     99.9%     68.7%     48.0%     55.6%
+exit code 127

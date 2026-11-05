@@ -1,0 +1,97 @@
+{
+ "split": "test",
+ "select_by": "exact_match",
+ "variants": {
+  "char": {
+   "overall": {
+    "exact_match": 0.34723156242994846,
+    "exact_match_strict": 0.34431741761936785,
+    "intent_accuracy": 0.683927370544721,
+    "slot_f1": 0.4242306947938842,
+    "valid_call_rate": 1.0,
+    "macro_intent_f1": 0.6461909589230791,
+    "macro_exact_match": 0.37839206103832107,
+    "macro_slot_f1": 0.39665598445941697,
+    "seen": {
+     "n": 408,
+     "exact_match": 0.8063725490196079,
+     "intent_accuracy": 0.8553921568627451,
+     "slot_f1": 0.9251968503937008
+    },
+    "unseen": {
+     "n": 8514,
+     "exact_match": 0.3252290345313601,
+     "intent_accuracy": 0.6757105943152455,
+     "slot_f1": 0.4072567198025745
+    }
+   },
+   "en-US": {
+    "exact_match": 0.38197713517148624,
+    "exact_match_strict": 0.37794216543375925,
+    "intent_accuracy": 0.7081371889710827,
+    "slot_f1": 0.473097617217525,
+    "valid_call_rate": 1.0,
+    "macro_intent_f1": 0.6735642358974251,
+    "macro_exact_match": 0.4210408928111371,
+    "macro_slot_f1": 0.45107271886568523,
+    "seen": {
+     "n": 21,
+     "exact_match": 0.8571428571428571,
+     "intent_accuracy": 0.9047619047619048,
+     "slot_f1": 0.9444444444444444
+    },
+    "unseen": {
+     "n": 2953,
+     "exact_match": 0.3785980358956993,
+     "intent_accuracy": 0.7067389095834744,
+     "slot_f1": 0.46981424148606815
+    }
+   },
+   "fr-FR": {
+    "exact_match": 0.34835238735709484,
+    "exact_match_strict": 0.3449899125756557,
+    "intent_accuracy": 0.7054472091459314,
+    "slot_f1": 0.4099037138927098,
+    "valid_call_rate": 1.0,
+    "macro_intent_f1": 0.670116539280325,
+    "macro_exact_match": 0.37746903362369433,
+    "macro_slot_f1": 0.40232825617970347,
+    "seen": {
+     "n": 150,
+     "exact_match": 0.8533333333333334,
+     "intent_accuracy": 0.9066666666666666,
+     "slot_f1": 0.9139072847682119
+    },
+    "unseen": {
+     "n": 2824,
+     "exact_match": 0.32152974504249293,
+     "intent_accuracy": 0.6947592067988668,
+     "slot_f1": 0.39449169704333736
+    }
+   },
+   "ar-SA": {
+    "exact_match": 0.3113651647612643,
+    "exact_match_strict": 0.31002017484868866,
+    "intent_accuracy": 0.6381977135171486,
+    "slot_f1": 0.3894009216589862,
+    "valid_call_rate": 1.0,
+    "macro_intent_f1": 0.5967946791899502,
+    "macro_exact_match": 0.33666625668013167,
+    "macro_slot_f1": 0.360064733558654,
+    "seen": {
+     "n": 237,
+     "exact_match": 0.7721518987341772,
+     "intent_accuracy": 0.8185654008438819,
+     "slot_f1": 0.9283489096573209
+    },
+    "unseen": {
+     "n": 2737,
+     "exact_match": 0.2714651077822433,
+     "intent_accuracy": 0.6225794665692364,
+     "slot_f1": 0.35400040924902804
+    }
+   }
+  }
+ },
+ "best": "char"
+}

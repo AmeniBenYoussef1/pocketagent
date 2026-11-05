@@ -1,0 +1,45 @@
+# Raw MASSIVE data — never committed (download with: python -m src.data.download_massive)
+data/massive/
+data/.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model checkpoints (metrics, curves and samples in experiments/ ARE committed)
+*.pt
+*.pth
+*.ckpt
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Other weight / checkpoint formats
+checkpoints/
+*.safetensors
+*.bin
+*.onnx
+
+# Secrets (API keys for benchmarks/)
+.env
+
+# Office lock files (e.g. while the .docx spec is open in Word)
+~$*
+
+# Web app (app/web): installed and built locally
+node_modules/
+app/web/dist/
+*.tsbuildinfo

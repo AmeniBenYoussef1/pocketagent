@@ -1,0 +1,8 @@
+experiments\e7_copy_ar_beam3 (dev), 4.8s on cuda
+                EM EM strict    intent   slot F1     valid   mF1 int       mEM  mF1 slot
+overall      49.7%     49.7%     74.6%     64.7%    100.0%     68.9%     47.8%     56.0%
+ar-SA        49.7%     49.7%     74.6%     64.7%    100.0%     68.9%     47.8%     56.0%
+          n seen        EM    intent   slot F1  n unseen        EM    intent   slot F1
+overall      149     79.2%     82.6%     93.1%      1884     47.4%     74.0%     63.1%
+ar-SA        149     79.2%     82.6%     93.1%      1884     47.4%     74.0%     63.1%
+exit code 0
